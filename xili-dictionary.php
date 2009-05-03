@@ -76,11 +76,14 @@ class xili_dictionary {
 				
 	}
 	function xili_dictionary_activation() {
-		$submitted_settings = array(
-			    'taxonomy'		=> 'dictionary',
-			    'version' 		=> '0.2'
-		    );
-		update_option('xili_dictionary_settings', $submitted_settings);	    
+		$xili_settings = get_option('xili_dictionary_settings');
+			if(empty($xili_settings)) { 
+				$submitted_settings = array(
+			    	'taxonomy'		=> 'dictionary',
+			    	'version' 		=> '0.2'
+		    	);
+			update_option('xili_dictionary_settings', $submitted_settings);	
+		}    
 	}
 	
 	/*add admin menu and associated page*/
