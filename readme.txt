@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file
 Requires at least: 2.7.0
 Tested up to: 2.7.1
-Stable tag: 0.9.7.1
+Stable tag: 0.9.7.2
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -15,7 +15,7 @@ xili-dictionary is full compatible with [xili-language](http://wordpress.org/ext
 
 = NEW 0.9.7.1 =
 
-grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags
+grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags (0.9.7.2 : some refreshing fixes)
 
 THIS VERSION 0.9.x IS A BETA VERSION (running on our sites and elsewhere) - WE NEED MORE FEEDBACK even if the first from world are good - coded as OOP and new admin UI WP 2.7 features (meta_box, js, screen options,...)
 
@@ -75,7 +75,8 @@ This first beta releases are for theme's creator or designer.
 The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/?p=312 "Why xili-dictionary ?")
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
-= 0.9.7.1 = list of msgid ID at end
+= 0.9.7.2 = some fixes
+= 0.9.7.1 = list of msgid ID at end 
 = 0.9.7 = grouping of terms by language now possible, and more...
 = 0.9.6 = W3C - recover compatibility with future wp 2.8
 = 0.9.5 = sub-selection of terms in UI, better UI (links as button)
@@ -83,4 +84,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/)
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 090504 - MS - dev.xiligroup.com
+© 090518 - MS - dev.xiligroup.com
