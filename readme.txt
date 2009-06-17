@@ -78,7 +78,7 @@ The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.c
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
 
-= 0.9.8 = verified on official WP 2.8 - fixes query error
+= 0.9.8 = verified on official WP 2.8 - fixes query error, .1 fixe IIS error
 = 0.9.7.2 = some fixes
 = 0.9.7.1 = list of msgid ID at end 
 = 0.9.7 = grouping of terms by language now possible, and more...
