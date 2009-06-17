@@ -3,8 +3,8 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file
 Requires at least: 2.7.0
-Tested up to: 2.7.1
-Stable tag: 0.9.7.2
+Tested up to: 2.8
+Stable tag: 0.9.8
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -13,8 +13,10 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e() or __() ` functions - , it is possible to create and update .mo file in the current theme folder.
 xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
-= NEW 0.9.7.1 =
+= NEW 0.9.8 =
+verified on official WP 2.8 - see Notes
 
+**0.9.7.1**
 grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags (0.9.7.2 : some refreshing fixes)
 
 THIS VERSION 0.9.x IS A BETA VERSION (running on our sites and elsewhere) - WE NEED MORE FEEDBACK even if the first from world are good - coded as OOP and new admin UI WP 2.7 features (meta_box, js, screen options,...)
@@ -75,6 +77,8 @@ This first beta releases are for theme's creator or designer.
 The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/?p=312 "Why xili-dictionary ?")
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
+
+= 0.9.8 = verified on official WP 2.8 - fixes query error
 = 0.9.7.2 = some fixes
 = 0.9.7.1 = list of msgid ID at end 
 = 0.9.7 = grouping of terms by language now possible, and more...
@@ -84,4 +88,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/)
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 090518 - MS - dev.xiligroup.com
+© 090617 - MS - dev.xiligroup.com
