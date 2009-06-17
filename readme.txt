@@ -14,7 +14,7 @@ xili-dictionary is a plugin (compatible with xili-language) to build a multiling
 xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
 = NEW 0.9.8 =
-verified on official WP 2.8 - see Notes
+verified on official WP 2.8 - see Notes - fix IIS
 
 **0.9.7.1**
 grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags (0.9.7.2 : some refreshing fixes)
