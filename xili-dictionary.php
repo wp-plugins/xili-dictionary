@@ -8,7 +8,7 @@ Version: 0.9.8
 Author URI: http://dev.xiligroup.com
 */
 
-# beta 0.9.8 - WP 2.8 - fix query error
+# beta 0.9.8 - WP 2.8 - fix query error - IIS fixes
 # beta 0.9.7.3 - =& instantiation (php4)
 # beta 0.9.7.2 - some 'refresh' fixes (thank Jacob)
 # beta 0.9.7.1 - list of msgid parent with id at end.
@@ -240,7 +240,7 @@ class xili_dictionary {
             		<option value="fr_CA" <?php if ($extend == 'fr_CA') { ?> selected="selected"<?php } ?> ><?php _e('canadian','xili-dictionary'); ?></option>
 	            	
 	         
-	     	<? } else { 
+	     	<?php } else { 
 	     	
 	     			foreach ($listlanguages as $reflanguage) {
 	     				echo '<option value="'.$reflanguage->name.'"'; if ($extend == $reflanguage->name) { echo ' selected="selected"';} echo ">".__($reflanguage->description,'xili-dictionary').'</option>';	
@@ -306,7 +306,7 @@ class xili_dictionary {
             <option value="es_es" <?php if ($extend == 'es_es') { ?> selected="selected"<?php } ?> ><?php _e('spanish','xili-dictionary'); ?></option>
             <option value="fr_ca" <?php if ($extend == 'fr_ca') { ?> selected="selected"<?php } ?> ><?php _e('canadian','xili-dictionary'); ?></option>
          
-     <? } else {
+     <?php } else {
      		foreach ($listlanguages as $reflanguage) {
      		echo '<option value="'.$reflanguage->slug.'"'; if ($extend == $reflanguage->slug) { echo ' selected="selected"';} echo ">".__($reflanguage->description,'xili-dictionary').'</option>';	
      			
@@ -1385,6 +1385,6 @@ function dictionary_start () {
 }
 add_action('plugins_loaded','dictionary_start'); 
 
-/* © xiligroup dev 090617 */
+/* © xiligroup dev 090617-14:15 */
 
 ?>
