@@ -3,7 +3,7 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file
 Requires at least: 2.7.0
-Tested up to: 2.8
+Tested up to: 2.8.1
 Stable tag: 0.9.8.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
@@ -88,4 +88,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/)
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 090617 - MS - dev.xiligroup.com
+© 090617 - 090718 - MS - dev.xiligroup.com
