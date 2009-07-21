@@ -3,7 +3,7 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file
 Requires at least: 2.7.0
-Tested up to: 2.8.1
+Tested up to: 2.8.2
 Stable tag: 0.9.8.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
