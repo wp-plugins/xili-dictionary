@@ -65,7 +65,7 @@ With certain conditions, the language must in the default list and if the langua
 
 `define('THEME_LANGS_FOLDER','/nameoflangfolder'); // in Fusion: /lang`
 
-= What about WP 2.8 ? =
+= What about WP 2.9 ? =
 Today works only with .mo or .po with simple twin msgid msgstr couple of lines and themes with functions like  ` _e() or __() ` for localization.
 
 == Screenshots ==
