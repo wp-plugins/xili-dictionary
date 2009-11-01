@@ -575,7 +575,7 @@ class xili_dictionary {
 		    $actiontype = "add";
 		    $term = $_POST['dictioline_term_id'];
 		    $termname = $_POST['dictioline_name']; 
-		    $sslug = $_POST['dictioline_slug'];
+		    $sslug = $_POST['dictioline_nicename'];
 			if (''!=$_POST['dictioline_lang']) {
 				$parent_id = $_POST['dictioline_parent'];
 				$parent_term = get_term($parent_id,DTAXONAME,OBJECT,'edit');
