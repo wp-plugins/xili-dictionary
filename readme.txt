@@ -1,19 +1,32 @@
 === xili-dictionary ===
 Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file
-Requires at least: 2.7.0
-Tested up to: 2.8
-Stable tag: 0.9.9
+Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international
+Requires at least: 2.8.0
+Tested up to: 2.9
+Stable tag: 1.0.2
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
 == Description ==
 
-xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e() or __() ` functions - , it is possible to create and update .mo file in the current theme folder.
-xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
+**xili-dictionary is a dictionary storable in taxonomy and terms to create, update and translate .po files or .mo files and more...**
 
-= 0.9.9 =
+* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. 
+* With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() ` functions - , it is possible to create and update .mo file in the current theme folder.
+* xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
+
+
+= 1.0.2 beta =
+* Create languages list, if xili-language plugin absent, for international themes - see [post](http://dev.xiligroup.com/?p=1197 "xili-dictionary for international themes") - to manage or improve current translations.
+* JS and vars, lot of fixes.
+* Add a term UI now use dynamic input (with javascript included). 
+* Now use POMO translations libraries included in WP since 2.8. 
+* Add features to set and manage plural terms used by `_n()`
+
+**For previous WP versions (<2.8), please use 0.9.9 release.** 
+
+**0.9.9**
 some fixes - better log display when importing from theme's files - tested on WP 2.9-rare
 
 **0.9.8**
@@ -21,7 +34,7 @@ verified on official WP 2.8 - see Notes
 **0.9.7.1**
 grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags (0.9.7.2 : some refreshing fixes)
 
-THIS VERSION 0.9.x IS A BETA VERSION (running on our sites and elsewhere) - WE NEED MORE FEEDBACK even if the first from world are good - coded as OOP and new admin UI WP 2.7 features (meta_box, js, screen options,...)
+THESE VERSIONS 1.0.x ARE BETA VERSION (running on our sites and elsewhere) - WE NEED MORE FEEDBACK even if the first from world are good - coded as OOP and new admin UI WP 2.7 features (meta_box, js, screen options,...)
 
 Some features (importing themes words to fill msgid list) are not totally stable (if coding is crazy - too spacing !)...
 
@@ -29,7 +42,7 @@ Some features (importing themes words to fill msgid list) are not totally stable
 
 1. Upload the folder containing `xili-dictionary.php` and language files to the `/wp-content/plugins/` directory,
 2. Verify that your theme is international compatible - translatable terms like `_e('the term','mytheme')` and no text hardcoded - 
-3. active and vist the dictionary page in tools menu ... more details soon... [here](http://dev.xiligroup.com/?cat=394&lang=en_us) - 
+3. active and visit the dictionary page in tools menu ... more details soon... [here](http://dev.xiligroup.com/?cat=394&lang=en_us) - 
 
 == Frequently Asked Questions ==
 
@@ -65,22 +78,30 @@ With certain conditions, the language must in the default list and if the langua
 
 `define('THEME_LANGS_FOLDER','/nameoflangfolder'); // in Fusion: /lang`
 
-= What about WP 2.9 ? =
-Today works only with .mo or .po with simple twin msgid msgstr couple of lines and themes with functions like  ` _e() or __() ` for localization.
+= What about plural translations ? =
+Today works with .mo or .po with simple twin msgid msgstr couple of lines and themes with functions like  ` _e() or __() ` for localization AND `_n()` which manage singular and plural terms like `msgid, msgid_plural, msgstr[0],...`
+
+= What about future WP 2.9 ? =
+Today works...
 
 == Screenshots ==
 
 1. the admin settings UI and boxes for editing, sub-selection and create or import files (.mo or .po).
+2. Since 1.0.0, plural terms are allowed.
+3. MsgID with his singular and his plural line.
+4. MsgSTR with separators between occurrences of n plural terms `msgstr[n]` (soon more practical UI).
 
 == More infos ==
 
-This first beta releases are for theme's creator or designer.
+This first beta releases are for theme's creator or designer with some knowledges in i18n.
 
 The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/?p=312 "Why xili-dictionary ?")
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
 
 == Changelog ==
+= 1.0.2 beta =
+Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add edit term dynamic UI
 = 0.9.9 = 
 * fixes existing msgid terms - 
 * better log display in importing theme's terms
@@ -99,4 +120,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/)
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 091031 - MS - dev.xiligroup.com
+© 091108 - MS - dev.xiligroup.com
