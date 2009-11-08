@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international
 Requires at least: 2.8.0
 Tested up to: 2.9
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -16,11 +16,13 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 * With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() ` functions - , it is possible to create and update .mo file in the current theme folder.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
-= 1.0.1 beta =
-* Add a term UI now use dynamic input (with javascript included) 
+
+= 1.0.2 beta =
+* Create languages list, if xili-language plugin absent, for international themes - see [post](http://dev.xiligroup.com/?p=1197 "xili-dictionary for international themes") - to manage or improve current translations.
+* JS and vars, lot of fixes.
+* Add a term UI now use dynamic input (with javascript included). 
 * Now use POMO translations libraries included in WP since 2.8. 
 * Add features to set and manage plural terms used by `_n()`
-* Some fixes.
 
 **For previous WP versions (<2.8), please use 0.9.9 release.** 
 
@@ -98,7 +100,7 @@ The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.c
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
 
 == Changelog ==
-= 1.0.1 beta =
+= 1.0.2 beta =
 Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add edit term dynamic UI
 = 0.9.9 = 
 * fixes existing msgid terms - 
@@ -118,4 +120,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 091105 - MS - dev.xiligroup.com
+© 091108 - MS - dev.xiligroup.com
