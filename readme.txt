@@ -94,6 +94,11 @@ Today works...
 3. MsgID with his singular and his plural line.
 4. MsgSTR with separators between occurrences of n plural terms `msgstr[n]` (soon more practical UI).
 
+== Upgrade Notice ==
+
+Upgrading can be easily procedeed through WP admin UI or through ftp.
+
+
 == More infos ==
 
 This first beta releases are for theme's creator or designer with some knowledges in i18n.
