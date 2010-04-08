@@ -1,0 +1,277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xili_dictionary\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-11-08 08:59+0100\n"
+"Last-Translator: dev.xiligroup.com <contact@xiligroup.com>\n"
+"Language-Team: Michel SCRIBAN <michel@scriban.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: trunk\n"
+
+msgid "A new term was added."
+msgstr "Un nouveau terme a été ajouté."
+
+msgid "Term to update."
+msgstr "Terme à mettre à jour."
+
+msgid "A term was updated."
+msgstr "Un terme a été mis à jour."
+
+msgid "A term to delete. CLICK MENU DICTIONARY TO CANCEL !"
+msgstr "Terme à effacer. Cliquer le menu DICTIONNAIRE pour annuler !"
+
+msgid "A term was deleted."
+msgstr "Un terme a été supprimé."
+
+msgid "Find above the list of terms."
+msgstr "Voici ci-dessus la liste des termes."
+
+msgid "Dictionary"
+msgstr "Dictionnaire"
+
+msgid "Multilingual Terms"
+msgstr "Termes en plusieurs langues"
+
+msgid "Full name"
+msgstr "Nom complet"
+
+msgid "Slug"
+msgstr "Code"
+
+msgid "Alias of"
+msgstr "Alias de"
+
+msgid "Term group"
+msgstr "Code groupe"
+
+msgid "Note:"
+msgstr "Note et message :"
+
+msgid "Edit term"
+msgstr "Editer le terme"
+
+msgid "Delete term ?"
+msgstr "Supprimer le terme ?"
+
+msgid "xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. With this dictionary, it is possible to create and update .mo file in the current theme folder. And more..."
+msgstr "L'extension xili-dictionary est destinée à créer et mettre à jour les fichiers .mo (et .po aussi) du thème courant. Elle est utile pour les thèmes internationaux ou les thèmes multilingues 'live' pilotés par xili-language."
+
+msgid "Add a term"
+msgstr "Ajouter un terme"
+
+msgid "Add &raquo;"
+msgstr "Ajouter…"
+
+msgid "Update &raquo;"
+msgstr "Mettre à jour…"
+
+msgid "Delete &raquo;"
+msgstr "Supprimer…"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Import terms of categories"
+msgstr "Importer les noms et descriptions des catégories"
+
+msgid "Import category’s terms &raquo;"
+msgstr "Importer &raquo;"
+
+msgid "terms imported from WP: "
+msgstr "éléments importés : "
+
+msgid "To import terms (name and description) of categories into the dictionary before translation, click below. (to cancel, click Dictionary in dashboard menu)."
+msgstr "Cliquer le bouton ci-dessous pour importer les noms et descriptions des catégories du site dans le dictionnaire xili-dictionary."
+
+msgid "Export mo file"
+msgstr "Créer un fichier .mo"
+
+msgid "Export po file"
+msgstr "Créer un fichier .po"
+
+msgid "Export &raquo;"
+msgstr "Créer &raquo;"
+
+msgid "exported in mo file."
+msgstr "Fichier mo créé."
+
+msgid "exported in po file."
+msgstr "Fichier po créé."
+
+msgid "error during exporting in po file."
+msgstr "Erreur pendant la création du fichier po."
+
+msgid "Import po/mo file"
+msgstr "Import d'un fichier "
+
+msgid "Import &raquo;"
+msgstr "Importer &raquo;"
+
+msgid "line imported from po file: "
+msgstr "ligne(s) importée(s) du fichier .po"
+
+msgid "po file is not present."
+msgstr "Le fichier .po est absent."
+
+msgid "The files"
+msgstr "Les fichiers"
+
+msgid "The categories"
+msgstr "Les catégories du site."
+
+msgid "xili-language plugin is not activated !"
+msgstr "L'extension xili-language n'est pas activée."
+
+msgid "xili-language plugin is not present !"
+msgstr "L'extension xili-language n'est pas présente."
+
+msgid "Choose the original term (msgid) to translate"
+msgstr "Choisir le terme (msgid) à traduire"
+
+msgid "no parent (= msgid)"
+msgstr "terme de référence (=msgid)"
+
+msgid "Full msg (id or str)"
+msgstr "Le terme (id or str)"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "parent of: "
+msgstr "parent de : "
+
+msgid "Relationship (msgid)"
+msgstr "Terme référent (msgid)"
+
+msgid "Import all terms from current theme"
+msgstr "Importer les termes du thème courant"
+
+msgid "Erase all terms &raquo;"
+msgstr "Effacer le dictionnaire &raquo;"
+
+msgid "Erase all terms"
+msgstr "Effacer le dictionnaire &raquo;"
+
+msgid "Import & export"
+msgstr "Importer et exporter"
+
+msgid "Terms list management"
+msgstr "Gestion de l'affichage des termes"
+
+msgid "try another sub-selection !"
+msgstr "Sous-sélection sans résultat !"
+
+msgid "Sub list of terms"
+msgstr "Sélection des termes par"
+
+msgid "Starting with:"
+msgstr "Commençant par :"
+
+msgid "Containing:"
+msgstr "Incluant :"
+
+msgid "No select…"
+msgstr "Désélection"
+
+msgid "Sub select…"
+msgstr "Sous sélectionner…"
+
+msgid "Selection by language"
+msgstr "Sélection par langue"
+
+msgid "No sub-selection"
+msgstr "Sans sous-sélection"
+
+msgid "Only MsgID (en_US)"
+msgstr "Que le MsgID (en_US)"
+
+msgid "Only:"
+msgstr "Que la :"
+
+msgid "Create or Update mo file in current theme folder"
+msgstr "Crée ou met à jour le fichier .mo dans le dossier du thème actif"
+
+msgid "Create or Update po file in current theme folder"
+msgstr "Crée ou met à jour le fichier .po dans le dossier du thème actif"
+
+msgid "Import an existing .po file from current theme folder"
+msgstr "Importe un fichier .po existant dans le dossier du thème actif"
+
+msgid "Import name and description of categories"
+msgstr "Importe nom et description des catégories du blogue"
+
+msgid "To erase terms of the dictionary, click below. (before, create a .po if necessary!)"
+msgstr "Efface tous les termes du dictionnaire ! mais pas les fichiers .po et .mo"
+
+msgid "To import terms of the current theme, click below."
+msgstr "Pour importer les termes du thème courant, cliquer çi-dessous."
+
+msgid "Import all terms &raquo;"
+msgstr "Importer tous les termes &raquo;"
+
+msgid "No parent term defined"
+msgstr "Terme parent non défini !"
+
+msgid "List of found terms"
+msgstr "Liste des termes trouvés"
+
+msgid "List of scanned files:"
+msgstr "Liste des fichiers analysés :"
+
+msgid "Original or translation"
+msgstr "Original ou traduction"
+
+msgid "Full msgid (original)"
+msgstr "La ligne msgid (original)"
+
+msgid "Full msgstr (translation)"
+msgstr "La ligne msgstr (traduction)"
+
+msgid "translation of"
+msgstr "traduction de"
+
+msgid "translated as"
+msgstr "traduit en"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Translation"
+msgstr "Traduction"
+
+msgid "Use only plural terms if theme contains _n() functions"
+msgstr "N'utiliser les formes pluriels que si le thème contient des fonctions _n() !"
+
+msgid "Add a plural"
+msgstr "Ajouter un pluriel"
+
+msgid "Delete a plural"
+msgstr "Supprimer un pluriel"
+
+msgid "Only the languages list is here modified (but not the dictionary's contents)"
+msgstr "Seule la liste des languages est modifiée mais les contenus du dictionaire"
+
+msgid "Select..."
+msgstr "Choisir..."
+
+msgid "Delete a language"
+msgstr "Supprimer une langue"
+
+msgid "Language to add"
+msgstr "Langue à ajouter"
+
+msgid "ISO (xx_YY)"
+msgstr "Code (xx_YY)"
+
+msgid "Name (eng.)"
+msgstr "Nom (angl.)"
+
+msgid "Add a language"
+msgstr "Ajouter une langue"
+
