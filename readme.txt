@@ -3,7 +3,7 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international
 Requires at least: 2.8.0
-Tested up to: 2.9.1
+Tested up to: 2.9.2
 Stable tag: 1.0.3
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
@@ -15,6 +15,11 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. 
 * With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() ` functions - , it is possible to create and update .mo file in the current theme folder.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
+
+**IMPORTANT NOTE** : to prepare switch to WP3.0 (3.0-beta) single or multisite - see [Other versions](http://wordpress.org/extend/plugins/xili-dictionary/download/). The most recent version remains compatible with current WP 2.9.x.
+
+TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/) 
+
 
 = 1.0.3 =
 * fixes some directories issues in (rare) xamp servers and in theme's terms import. 
