@@ -58,9 +58,10 @@ Some features (importing themes words to fill msgid list) are not totally stable
 
 == Frequently Asked Questions ==
 
-= What about WPMU and the trilogy [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/) ? =
-
+= What about WPMU and the trilogy ? =
+[xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
 Since WP 3.0-alpha, if multisite is activated, the trilogy is now compatible and will include progressively some improvements dedicaded especially for WPMU context. Future specific docs will be available for registered webmasters.
+
 
 = Is the term msgid may contain words enriched by html tags ? =
 like `<em> or <strong>`
