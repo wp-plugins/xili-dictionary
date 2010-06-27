@@ -1304,9 +1304,9 @@ class xili_dictionary {
 						}
 						$keyfile = substr($key,0,3).strtoupper(substr($key,-2));
 						if (array_key_exists(htmlspecialchars_decode($msgid), $this->theme_mos[$key])) {
-							$mess =	'<span style="color:green" title="'.__("translation saved in theme's",'xili-dictionary').'">'.printf(__('saved in %s.mo of theme','xili-dictionary'),$keyfile);	
+							$mess =	'<span style="color:green" title="'.__("translation saved in theme's",'xili-dictionary').'">'.sprintf(__('saved in %s.mo of theme','xili-dictionary'),$keyfile);	
 						} elseif (array_key_exists(htmlspecialchars_decode($msgid), $this->file_site_mos[$key])) { // since 1.2.0 check each language of current site
-							$mess =	'<span style="color:blue" title="'.__("translation saved in site's",'xili-dictionary').'">'.printf(__('saved in %s.mo of site','xili-dictionary'),$keyfile);
+							$mess =	'<span style="color:blue" title="'.__("translation saved in site's",'xili-dictionary').'">'.sprintf(__('saved in %s.mo of site','xili-dictionary'),$keyfile);
 						} else {
 							$mess = '<span style="color:brown" title="'.__('not saved in theme or site .mo','xili-dictionary').'">...</span>';
 						}
