@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu
 Requires at least: 2.8.0
 Tested up to: 3.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -18,9 +18,10 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
-= 1.1.0 = 
-* fixes some issues (cache update), add some UI features and keep new features from xili-language 1.6.0 
+= 1.1.0, 1.1.1 = 
+* fixes some issues (cache update, empty .mo), add some UI features and keep new features from xili-language 1.6.0 
 * add  features in differential saving (theme's mo and other languages saving in each site of multisite mode).
+* used currently in this [demo website](http://multilingual.wpmu.xilione.com/).
 = 1.0.6 = 
 * fixes issues on wpmu mode and .mo saving
 = 1.0.5 =
@@ -124,6 +125,7 @@ The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.c
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
 
 == Changelog ==
+= 1.1.1 = fixes issues in multisite mode (empty .mo)
 = 1.0.6 = fixes issues on wpmu and .mo saving
 = 1.0.4 = 100408 - minor modifications for WP 3.0 and WPMU (tests purpose)
 = 1.0.3 =
@@ -148,4 +150,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 100503 - MS - dev.xiligroup.com
+© 100527 - MS - dev.xiligroup.com
