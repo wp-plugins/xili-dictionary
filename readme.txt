@@ -159,4 +159,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 101028 - MS - dev.xiligroup.com
+© 101030 - MS - dev.xiligroup.com
