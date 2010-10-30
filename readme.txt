@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu
 Requires at least: 2.9.0
 Tested up to: 3.0
-Stable tag: 1.1.1
+Stable tag: 1.2.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -22,7 +22,8 @@ TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/
 * js for better list of terms display,
 * readme rewritting.
 
-= 1.2.0 =
+= 1.2.1 =
+* - 2010.10.30 - fixes a bug created by beta xili-language 1.8.1
 * compatibility with child theme and xili-language >=1.8.1 
 * better folder detection
 = 1.1.0, 1.1.1 = 
@@ -158,4 +159,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 101028 - MS - dev.xiligroup.com
+© 101030 - MS - dev.xiligroup.com
