@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu
 Requires at least: 2.9.0
 Tested up to: 3.0
-Stable tag: 1.2.0
+Stable tag: 1.1.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -66,7 +66,7 @@ Some features (importing themes words to fill msgid list) are not totally stable
 
 1. Upload the folder containing `xili-dictionary.php` and language files to the `/wp-content/plugins/` directory,
 2. Verify that your theme is international compatible - translatable terms like `_e('the term','mytheme')` and no text hardcoded - 
-3. active and visit the dictionary page in tools menu ... more details soon... [here](http://dev.xiligroup.com/?cat=394&lang=en_us) - 
+3. active and visit the dictionary page in tools menu ... more details soon... [here](http://dev.xiligroup.com/xili-dictionary/) - 
 
 == Frequently Asked Questions ==
 
@@ -125,11 +125,11 @@ Verify you install latest version of trilogy.
 
 This first beta releases are for theme's creator or designer with some knowledges in i18n.
 
-The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/?p=312 "Why xili-dictionary ?")
+The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xili-dictionary/ "Why xili-dictionary ?")
 
 See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.php?id=3).
 
-See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-language/).
+See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary/).
 
 == Changelog ==
 = 1.2.0 = compatibility with child theme and xili-language >= 1.8.1 - better folder detection
