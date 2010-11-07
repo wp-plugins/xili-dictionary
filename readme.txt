@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu
 Requires at least: 2.9.0
 Tested up to: 3.0
-Stable tag: 1.2.1
+Stable tag: 1.3.0
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -19,11 +19,15 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
-* js for better list of terms display,
 * readme rewritting.
+* version only for 3.0 and more - code source cleaning
 
-= 1.2.1 =
-* - 2010.10.30 - fixes a bug created by beta xili-language 1.8.1
+= 1.3.0 =
+* javascript (thanks to DataTables library) for better list of terms displaying - 
+
+= 1.2.2 =
+* add help menu and messages on top
+* fixes a temporary bug created by beta xili-language 1.8.1 
 * compatibility with child theme and xili-language >=1.8.1 
 * better folder detection
 = 1.1.0, 1.1.1 = 
@@ -132,8 +136,11 @@ See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.ph
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary/).
 
+© 2009-2010 MS - dev.xiligroup.com
+
 == Changelog ==
-= 1.2.0 = compatibility with child theme and xili-language >= 1.8.1 - better folder detection
+= 1.3.0 = js for better list of terms display
+= 1.2.0 = compatibility with child theme and xili-language >=1.8.1 - better folder detection
 = 1.1.1 = fixes issues in multisite mode (empty .mo)
 = 1.0.6 = fixes issues on wpmu and .mo saving
 = 1.0.4 = 100408 - minor modifications for WP 3.0 and WPMU (tests purpose)
@@ -159,4 +166,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 101030 - MS - dev.xiligroup.com
+© 101107 - MS - dev.xiligroup.com
