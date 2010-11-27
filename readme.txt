@@ -1,10 +1,10 @@
 === xili-dictionary ===
 Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu
+Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 2.9.0
 Tested up to: 3.0
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -19,9 +19,11 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
-* readme rewritting.
-* version only for 3.0 and more - code source cleaning
 
+* version only for WP 3.0 and more - code source cleaning
+
+= 1.3.1 =
+* add translation links between `msgid` and (existing - or not) `msgstr` for each target language to help work of translator.
 = 1.3.0 =
 * javascript (thanks to DataTables library) for better list of terms displaying - 
 
@@ -30,48 +32,14 @@ TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/
 * fixes a temporary bug created by beta xili-language 1.8.1 
 * compatibility with child theme and xili-language >=1.8.1 
 * better folder detection
-= 1.1.0, 1.1.1 = 
-* fixes some issues (cache update, empty .mo), add some UI features and keep new features from xili-language 1.6.0 
-* add  features in differential saving (theme's mo and other languages saving in each site of multisite mode).
-* used currently in this [demo website](http://multilingual.wpmu.xilione.com/).
-= 1.0.6 = 
-* fixes issues on wpmu mode and .mo saving
-= 1.0.5 =
-* introduces some improvements specifically for WPMU and management of .mo of theme shared by each site and particular translated file of one site of wpmu.
-* now possible to import .pot file if the name of this file is the name of the theme text domain. *(twentyten.pot in twentyten default theme)*
 
-= 1.0.4 =
-* minor modifications for WP 3.0 and WPMU (for tests before future and specific improvements for wpmu 3.0)
-= 1.0.3 =
-* fixes some directories issues in (rare) xamp servers and in theme's terms import. 
-* Create .po with empty translations. Helpful if you send the .po file to a translator that uses app like poedit. 
-
-**1.0.2 beta**
-* Create languages list, if xili-language plugin absent, for international themes - see [post](http://dev.xiligroup.com/?p=312 "xili-dictionary for international themes") - to manage or improve current translations.
-* JS and vars, lot of fixes.
-* Add a term UI now use dynamic input (with javascript included). 
-* Now use POMO translations libraries included in WP since 2.8. 
-* Add features to set and manage plural terms used by `_n()`
-
-**For previous WP versions (<2.8), please use 0.9.9 release.** 
-
-**0.9.9**
-some fixes - better log display when importing from theme's files - tested on WP 2.9-rare
-
-**0.9.8**
-verified on official WP 2.8 - see Notes
-**0.9.7.1**
-grouping of terms by language now possible, - better import .po - enrich terms more possible (same terms with/without html tags (0.9.7.2 : some refreshing fixes)
-
-THESE VERSIONS 1.0.x ARE BETA VERSION (running on our sites and elsewhere) - WE NEED MORE FEEDBACK even if the first from world are good - coded as OOP and new admin UI WP 2.7 features (meta_box, js, screen options,...)
-
-Some features (importing themes words to fill msgid list) are not totally stable (if coding is crazy - too spacing !)...
+For previous versions, see Changelog and readme in tab Other Versions. 
 
 == Installation ==
 
 1. Upload the folder containing `xili-dictionary.php` and language files to the `/wp-content/plugins/` directory,
 2. Verify that your theme is international compatible - translatable terms like `_e('the term','mytheme')` and no text hardcoded - 
-3. active and visit the dictionary page in tools menu ... more details soon... [here](http://dev.xiligroup.com/xili-dictionary/) - 
+3. active and visit the dictionary page in tools menu and docs [here](http://dev.xiligroup.com/xili-dictionary/) - 
 
 == Frequently Asked Questions ==
 
@@ -98,7 +66,8 @@ un mot <strong>exact</strong>
 
 = Where can I see websites using this plugin ? =
 
-dev.xiligroup.com [here](http://dev.xiligroup.com/ "a multi-language site")
+dev.xiligroup.com [here](http://dev.xiligroup.com/ "a multi-language site"),
+multilingual.wpmu.xilione.com [here](http://multilingual.wpmu.xilione.com/ "a multi-language demo site")
 and
 www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") also usable with mobile as iPhone.
 
@@ -108,7 +77,7 @@ The root language is in Wordpress currently `en_US`, but with xili-dictionary, i
 
 = Is xili-dictionary usable without xili-language to edit .po or .mo file ? =
 
-Yes and now automatically detected !
+Yes and now automatically detected ! For example, to modify the results of a translation for your site with your words.
 
 = What about plural translations ? =
 Today works with .mo or .po with simple twin msgid msgstr couple of lines and themes with functions like  ` _e() or __() ` for localization AND `_n()` which manage singular and plural terms like `msgid, msgid_plural, msgstr[0],...`
@@ -116,15 +85,16 @@ Today works with .mo or .po with simple twin msgid msgstr couple of lines and th
 == Screenshots ==
 
 1. The admin settings UI and boxes for editing, sub-selection and create or import files (.mo or .po).
-2. Since 1.0.0, plural terms are allowed.
-3. MsgID with his singular and his plural line.
-4. MsgSTR with separators between occurrences of n plural terms `msgstr[n]` (soon more practical UI).
+2. Since 1.3.1, links between original (msgid) and translations (msgstr).
+3. Since 1.0.0, plural terms are allowed.
+4. MsgID with his singular and his plural line.
+5. MsgSTR with separators between occurrences of n plural terms `msgstr[n]` (soon more practical UI).
 
 == Upgrade Notice ==
 
 Upgrading can be easily procedeed through WP admin UI or through ftp.
 Don't forget to backup before.
-Verify you install latest version of trilogy.
+Verify you install latest version of trilogy (xili-language, xili-tidy-tags,…).
 
 == More infos ==
 
@@ -166,4 +136,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 101107 - MS - dev.xiligroup.com
+© 20101127 - MS - dev.xiligroup.com
