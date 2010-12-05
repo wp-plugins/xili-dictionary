@@ -3,8 +3,8 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 2.9.0
-Tested up to: 3.0
-Stable tag: 1.3.1
+Tested up to: 3.1
+Stable tag: 1.3.3
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -19,9 +19,12 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
-
 * version only for WP 3.0 and more - code source cleaning
 
+= 1.3.3 =
+Before xili-language version 1.8.8, it was necessary to change wp-config.php like japanese and set `WP_LANG` to ISO : from *ja* to **ja_JA**. Now xili-language version with 1.8.8 and xili-dictionary 1.3.3, the trilogy is updated, it is not necessary. So very easy for a japanese to manage his ja.po and ja.mo files in japanese or transform his site in a multilingual site by adding other language files. For other mother languages, just add the japanese (ja.mo) inside languages sub-folder of the target theme [kept here](http://ja.wordpress.org/).
+= 1.3.2 =
+* fixes some issues for mode standalone (*w/o xili-language for multilingual live mode*). This standalone mode is usable to improve (or adapt) localization or create po file in another language when not delivered with theme package.
 = 1.3.1 =
 * add translation links between `msgid` and (existing - or not) `msgstr` for each target language to help work of translator.
 = 1.3.0 =
@@ -109,7 +112,10 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2010 MS - dev.xiligroup.com
 
 == Changelog ==
-= 1.3.0 = js for better list of terms display
+= 1.3.3 = now able to use ja.mo and ja.po for japanese. fixes db issues.
+= 1.3.2 = fixes for mode standalone w/o xili-language,
+add translation links for each target lang.
+= 1.3.0 = js for better list of terms display.
 = 1.2.0 = compatibility with child theme and xili-language >=1.8.1 - better folder detection
 = 1.1.1 = fixes issues in multisite mode (empty .mo)
 = 1.0.6 = fixes issues on wpmu and .mo saving
@@ -136,4 +142,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 20101127 - MS - dev.xiligroup.com
+© 20101205 - MS - dev.xiligroup.com
