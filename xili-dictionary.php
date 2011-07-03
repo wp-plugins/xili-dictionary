@@ -6,6 +6,7 @@ Description: ONLY for >= WP 3.0 - This plugin is a tool using wordpress's taxono
 Author: dev.xiligroup - MS
 Version: 1.3.5
 Author URI: http://dev.xiligroup.com
+License: GPLv2
 */
 
 # beta 1.3.5 - 110628 - new folder organization - fixes only > 3.1
