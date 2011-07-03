@@ -2,9 +2,9 @@
 Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
-Requires at least: 2.9.0
-Tested up to: 3.1
-Stable tag: 1.3.3
+Requires at least: 3.0
+Tested up to: 3.2
+Stable tag: 1.3.5
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -20,7 +20,12 @@ TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/
 
 = roadmap =
 * version only for WP 3.0 and more - code source cleaning
+* more features for xili-language premium
 
+= 1.3.5 =
+* new folder organization - fixes only > 3.1 - new capability rights for xili admin bar menu
+= 1.3.4 =
+* Detect recent xili-language premium used by professional webmasters - (for previous version < 3.0 use previous release)
 = 1.3.3 =
 Before xili-language version 1.8.8, it was necessary to change wp-config.php like japanese and set `WP_LANG` to ISO : from *ja* to **ja_JA**. Now xili-language version with 1.8.8 and xili-dictionary 1.3.3, the trilogy is updated, it is not necessary. So very easy for a japanese to manage his ja.po and ja.mo files in japanese or transform his site in a multilingual site by adding other language files. For other mother languages, just add the japanese (ja.mo) inside languages sub-folder of the target theme [kept here](http://ja.wordpress.org/).
 = 1.3.2 =
@@ -95,7 +100,7 @@ Today works with .mo or .po with simple twin msgid msgstr couple of lines and th
 
 == Upgrade Notice ==
 
-Upgrading can be easily procedeed through WP admin UI or through ftp.
+Upgrading can be easily procedeed through WP admin UI or through ftp (delete previous release folder before upgrading via ftp).
 Don't forget to backup before.
 Verify you install latest version of trilogy (xili-language, xili-tidy-tags,…).
 
@@ -109,9 +114,11 @@ See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.ph
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary/).
 
-© 2009-2010 MS - dev.xiligroup.com
+© 2009-2011 MS - dev.xiligroup.com
 
 == Changelog ==
+= 1.3.5 = new folder organization - fixes only > 3.1
+= 1.3.4 = compatible with xili-language premium
 = 1.3.3 = now able to use ja.mo and ja.po for japanese. fixes db issues.
 = 1.3.2 = fixes for mode standalone w/o xili-language,
 add translation links for each target lang.
@@ -142,4 +149,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 20101205 - MS - dev.xiligroup.com
+© 20110628 - MS - dev.xiligroup.com
