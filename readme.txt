@@ -3,8 +3,8 @@ Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.0
-Tested up to: 3.2
-Stable tag: 1.3.5
+Tested up to: 3.3
+Stable tag: 1.3.6
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -14,6 +14,7 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. 
 * With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() ` functions - , it is possible to create and update .mo file in the current theme folder.
+* By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
@@ -22,8 +23,9 @@ TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/
 * version only for WP 3.0 and more - code source cleaning
 * more features for xili-language premium
 
-= 1.3.5 =
+= 1.3.5, 1.3.6 =
 * new folder organization - fixes only > 3.1 - new capability rights for xili admin bar menu
+* fixes import mo (rebuild hierarchy)
 = 1.3.4 =
 * Detect recent xili-language premium used by professional webmasters - (for previous version < 3.0 use previous release)
 = 1.3.3 =
@@ -117,6 +119,7 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2011 MS - dev.xiligroup.com
 
 == Changelog ==
+= 1.3.6 = fixes import mo (rebuild hierarchy)
 = 1.3.5 = new folder organization - fixes only > 3.1
 = 1.3.4 = compatible with xili-language premium
 = 1.3.3 = now able to use ja.mo and ja.po for japanese. fixes db issues.
@@ -149,4 +152,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 20110628 - MS - dev.xiligroup.com
+© 20111002 - MS - dev.xiligroup.com
