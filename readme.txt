@@ -2,9 +2,9 @@
 Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
-Requires at least: 3.0
+Requires at least: 3.2
 Tested up to: 3.3
-Stable tag: 1.3.6
+Stable tag: 1.4.0
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -13,16 +13,19 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 **xili-dictionary is a dictionary storable in taxonomy and terms to create, update and translate .po files or .mo files and more...**
 
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. 
-* With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() ` functions - , it is possible to create and update .mo file in the current theme folder.
+* With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` functions - , it is possible to create and update .mo file in the current theme folder.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
-* version only for WP 3.0 and more - code source cleaning
+* code source cleaning
+* better UI with use of custom post type completing the original taxonomy.
 * more features for xili-language premium
 
+= 1.4.0 =
+* manage now context (msgctxt) from/to .po or .mo - for theme with `_x(), _ex(), _nx(),…` functions.
 = 1.3.5, 1.3.6 =
 * new folder organization - fixes only > 3.1 - new capability rights for xili admin bar menu
 * fixes import mo (rebuild hierarchy)
@@ -92,6 +95,37 @@ Yes and now automatically detected ! For example, to modify the results of a tra
 = What about plural translations ? =
 Today works with .mo or .po with simple twin msgid msgstr couple of lines and themes with functions like  ` _e() or __() ` for localization AND `_n()` which manage singular and plural terms like `msgid, msgid_plural, msgstr[0],...`
 
+= What is a po file ? =
+
+It is a text file like this (here excerpt) with different types of msgid :
+
+`
+msgctxt "comments number"
+msgid "%"
+msgstr "%"
+
+msgid "Leave a reply"
+msgstr "Laisser une réponse"
+
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réflexion au sujet de &laquo&nbsp;%2$s&nbsp;&raquo;"
+msgstr[1] "%1$s réflexions au sujet de &laquo&nbsp;%2$s&nbsp;&raquo;"
+
+msgctxt "sentence"
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "commentaire"
+msgstr[1] "commentaires"
+
+`
+
+= What happens if only the .mo is available ? =
+
+xili-dictionary is able to import a .mo of the target language and rebuild a .po editable in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme.
+
+
+
 == Screenshots ==
 
 1. The admin settings UI and boxes for editing, sub-selection and create or import files (.mo or .po).
@@ -119,6 +153,7 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2011 MS - dev.xiligroup.com
 
 == Changelog ==
+= 1.4.0 = manage now context (msgctxt) from po or mo - for theme with `_x() or _ex()` functions. Improvements for long msg and slug management.
 = 1.3.6 = fixes import mo (rebuild hierarchy)
 = 1.3.5 = new folder organization - fixes only > 3.1
 = 1.3.4 = compatible with xili-language premium
@@ -152,4 +187,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 20111002 - MS - dev.xiligroup.com
+© 20111110 - MS - dev.xiligroup.com
