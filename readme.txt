@@ -1,10 +1,10 @@
 === xili-dictionary ===
 Contributors: MS xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, context, gettext
+Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.2
 Tested up to: 3.3
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 
 xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
 
@@ -24,7 +24,7 @@ TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/
 * better UI with use of custom post type completing the original taxonomy.
 * more features for xili-language premium
 
-= 1.4.0 =
+= 1.4.0, 1.4.1 =
 * manage now context (msgctxt) from/to .po or .mo - for theme with `_x(), _ex(), _nx(),…` functions.
 = 1.3.5, 1.3.6 =
 * new folder organization - fixes only > 3.1 - new capability rights for xili admin bar menu
@@ -153,7 +153,7 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2011 MS - dev.xiligroup.com
 
 == Changelog ==
-= 1.4.0 = manage now context (msgctxt) from po or mo - for theme with `_x() or _ex()` functions. Improvements for long msg and slug management.
+= 1.4.0, 1.4.1 = manage now context (msgctxt) from po or mo - for theme with `_x() or _ex()` functions. Improvements for long msg and slug management. Clean notices
 = 1.3.6 = fixes import mo (rebuild hierarchy)
 = 1.3.5 = new folder organization - fixes only > 3.1
 = 1.3.4 = compatible with xili-language premium
@@ -187,4 +187,4 @@ Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add ed
 = 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
 = 0.9.3 = first public release (beta) 
 
-© 20111110 - MS - dev.xiligroup.com
+© 20111111 - MS - dev.xiligroup.com
