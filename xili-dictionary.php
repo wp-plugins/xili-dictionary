@@ -4,7 +4,7 @@ Plugin Name: xili-dictionary
 Plugin URI: http://dev.xiligroup.com/xili-dictionary/
 Description: ONLY for >= WP 3.0 - This plugin is a tool using wordpress's taxonomy for localized themes or multilingual themes managed by xili-language - a powerful tool to create .mo file(s) on the fly in the theme's folder and more... -
 Author: dev.xiligroup - MS
-Version: 1.3.6
+Version: 1.4.0
 Author URI: http://dev.xiligroup.com
 License: GPLv2
 */
