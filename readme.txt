@@ -20,9 +20,8 @@ xili-dictionary is a dictionary storable in taxonomy and terms to create and tra
 TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
-* code source cleaning
-* better UI with use of custom post type completing the original taxonomy.
-* more features for xili-language premium
+* better UI with use of custom post type (CPT) completing the original taxonomy: since 2012-03-23, **new version 2.0-rc1** is available in [other versions tab](http://wordpress.org/extend/plugins/xili-dictionary/download/). See his Readme.txt carefuly before upgrading and new [wiki](http://wiki.xiligroup.org/) !
+* more features for commenting in po and for xili-language premium
 
 = 1.4.0 to 1.4.4 =
 * manage now context (msgctxt) from/to .po or .mo - for theme with `_x(), _ex(), _nx(),…` functions.
