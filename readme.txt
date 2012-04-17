@@ -2,50 +2,34 @@
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
-Requires at least: 3.2
-Tested up to: 3.3
-Stable tag: 1.4.4
+Requires at least: 3.2.1
+Tested up to: 3.4
+Stable tag: 2.0.0
 
-xili-dictionary is a dictionary storable in taxonomy and terms to create and translate .po files or .mo files and more... 
+xili-dictionary is a dictionary storable in CPT and terms to create and translate .po files or .mo files and more... 
 
 == Description ==
 
-**xili-dictionary is a dictionary storable in taxonomy and terms to create, update and translate .po files or .mo files and more...**
+**xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder.**
 
-* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. 
-* With this dictionary, collecting terms from categories (title, description), from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` functions - , it is possible to create and update .mo file in the current theme folder.
+* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT. 
+* With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` functions - , it is possible to create and update .mo file in the current theme folder.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
-TRILOGY FOR MULTILINGUAL CMS SITE : [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/), 
 
 = roadmap =
 * code source cleaning
-* better UI with use of custom post type completing the original taxonomy.
-* more features for xili-language premium
+* readme rewritting
+* tags and more for msg lines
+* dictionary for other than theme's .po, .mo files
 
-= 1.4.0 to 1.4.4 =
-* manage now context (msgctxt) from/to .po or .mo - for theme with `_x(), _ex(), _nx(),…` functions.
-* ready for xili-language 2.4 and the new way and options to manage dates translation using class wp_locale - read carefully [this keynote](http://dev.xiligroup.com/?p=2275).
-= 1.3.5, 1.3.6 =
-* new folder organization - fixes only > 3.1 - new capability rights for xili admin bar menu
-* fixes import mo (rebuild hierarchy)
-= 1.3.4 =
-* Detect recent xili-language premium used by professional webmasters - (for previous version < 3.0 use previous release)
-= 1.3.3 =
-Before xili-language version 1.8.8, it was necessary to change wp-config.php like japanese and set `WP_LANG` to ISO : from *ja* to **ja_JA**. Now xili-language version with 1.8.8 and xili-dictionary 1.3.3, the trilogy is updated, it is not necessary. So very easy for a japanese to manage his ja.po and ja.mo files in japanese or transform his site in a multilingual site by adding other language files. For other mother languages, just add the japanese (ja.mo) inside languages sub-folder of the target theme [kept here](http://ja.wordpress.org/).
-= 1.3.2 =
-* fixes some issues for mode standalone (*w/o xili-language for multilingual live mode*). This standalone mode is usable to improve (or adapt) localization or create po file in another language when not delivered with theme package.
-= 1.3.1 =
-* add translation links between `msgid` and (existing - or not) `msgstr` for each target language to help work of translator.
-= 1.3.0 =
-* javascript (thanks to DataTables library) for better list of terms displaying - 
-
-= 1.2.2 =
-* add help menu and messages on top
-* fixes a temporary bug created by beta xili-language 1.8.1 
-* compatibility with child theme and xili-language >=1.8.1 
-* better folder detection
+= NEW 2.0: MAJOR UPGRADE =
+* new way of saving lines in CPT 
+* use as soon as possible wp-admin UI library
+* now msg lines full commented as in .po
+* now translated lines (msgstr) attached to same taxonomy as xili-language (> 2.4.1)
+* VERY IMPORTANT : before upgrading from 1.4.4 to 2.0, export all the dictionary content in .po files and empty the dictionary table.
 
 For previous versions, see Changelog and readme in tab Other Versions. 
 
@@ -53,30 +37,17 @@ For previous versions, see Changelog and readme in tab Other Versions.
 
 1. Upload the folder containing `xili-dictionary.php` and language files to the `/wp-content/plugins/` directory,
 2. Verify that your theme is international compatible - translatable terms like `_e('the term','mytheme')` and no text hardcoded - 
-3. active and visit the dictionary page in tools menu and docs [here](http://dev.xiligroup.com/xili-dictionary/) - 
+3. Activate and visit the dictionary page in tools menu and docs [here](http://dev.xiligroup.com/xili-dictionary/) - 
+4. To edit a msg, you can start from dictionary list or XD msg list using current WP admin UI library. Don't forget to adapt UI with screen options and moving meta boxes.
+
+More infos will be added progressively in a wiki [here](http://wiki.xiligroup.org/index.php/Main_Page).
 
 == Frequently Asked Questions ==
 
-= What about WPMU and the trilogy ? =
+= What about WP multisite (or network - former named WPMU) and the trilogy ? =
 [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
 
-Since WP 3.0-alpha, if multisite is activated, the trilogy is now compatible and will include progressively some improvements dedicaded especially for WPMU context. Future specific docs will be available for registered webmasters.
-
-= Is the term msgid may contain words enriched by html tags ? =
-like `<em> or <strong>`
-
-Yes, since version 0.9.7. 
-
-`
-a <strong>good</strong> word
-`
-
-can be translated by
-
-`
-un mot <strong>exact</strong>
-`
-
+Since WP 3.0-alpha, if multisite is activated, the trilogy is now compatible and will include progressively some improvements dedicaded especially for WP network context. Future specific docs will be available for registered webmasters.
 
 = Where can I see websites using this plugin ? =
 
@@ -129,17 +100,18 @@ xili-dictionary is able to import a .mo of the target language and rebuild a .po
 
 == Screenshots ==
 
-1. The admin settings UI and boxes for editing, sub-selection and create or import files (.mo or .po).
-2. Since 1.3.1, links between original (msgid) and translations (msgstr).
-3. Since 1.0.0, plural terms are allowed.
+1. The admin settings UI: table for sub-selection and create or import files (.mo or .po).
+2. Msg edit screen with the msg series dashboard.
+3. Msg list table screen as designed with WP admin UI library.
 4. MsgID with his singular and his plural line.
-5. MsgSTR with separators between occurrences of n plural terms `msgstr[n]` (soon more practical UI).
+5. MsgSTR with his plural.
 
 == Upgrade Notice ==
 
 Upgrading can be easily procedeed through WP admin UI or through ftp (delete previous release folder before upgrading via ftp).
-Don't forget to backup before.
+IMPORTANT - Don't forget to backup before.
 Verify you install latest version of trilogy (xili-language, xili-tidy-tags,…).
+IMPORTANT - Before updating to xili-dictionary 2.0, export all the dictionary contents in .po files foreach target langs and empty the dictionary table made by 1.4.4.
 
 == More infos ==
 
@@ -151,41 +123,22 @@ See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.ph
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary/).
 
-© 2009-2011 MS - dev.xiligroup.com
+© 2009-2012 MS - dev.xiligroup.com
 
 == Changelog ==
-= 1.4.0 to 1.4.4 = manage now context (msgctxt) from po or mo - for theme with `_x() or _ex()` functions. Improvements for long msg and slug management. Clean notices, import/export improvements, ready for xili-language v 2.4
-= 1.3.6 = fixes import mo (rebuild hierarchy)
-= 1.3.5 = new folder organization - fixes only > 3.1
-= 1.3.4 = compatible with xili-language premium
-= 1.3.3 = now able to use ja.mo and ja.po for japanese. fixes db issues.
-= 1.3.2 = fixes for mode standalone w/o xili-language,
-add translation links for each target lang.
-= 1.3.0 = js for better list of terms display.
-= 1.2.0 = compatibility with child theme and xili-language >=1.8.1 - better folder detection
-= 1.1.1 = fixes issues in multisite mode (empty .mo)
-= 1.0.6 = fixes issues on wpmu and .mo saving
-= 1.0.4 = 100408 - minor modifications for WP 3.0 and WPMU (tests purpose)
-= 1.0.3 =
-fixes some directories issues in (rare) xamp servers and in theme's terms import. Create .po with empty translations.
-= 1.0.2 beta =
-Use POMO libraries and classes only in WP > 2.8. Add plural translations. Add edit term dynamic UI
-= 0.9.9 = 
-* fixes existing msgid terms - 
-* better log display in importing theme's terms
-* more html tags in msg str or id
-= 0.9.8 = 
-* verified on official WP 2.8.
-* fixes query error, 
-* .1 fixe IIS error.
 
-= 0.9.7.2 = some fixes
-= 0.9.7.1 = list of msgid ID at end 
-= 0.9.7 = grouping of terms by language now possible, and more...
-= 0.9.6 = W3C - recover compatibility with future wp 2.8
-= 0.9.5 = sub-selection of terms in UI, better UI (links as button)
-= 0.9.4.1 = subfolder for langs file - ` THEME_LANGS_FOLDER ` to define in functions.php with xili-language
-= 0.9.4 = second public release (beta) with OOP coding and new admin UI for WP 2.7
+= 2.0.0 = 
+* 120417 - repository as current
+* 120405 - pre-tests with WP 3.4: fixes metaboxes columns
+* 120219 - new way of saving lines in CPT - new UI using WP library
+* now msg lines full commented as in .po
+* now translated lines (msgstr) attached to same taxonomy as xili-language
+* compatible with theme and language files in sub-sub-folder.
+* IMPORTANT - before upgrading from 1.4.4 to 2.0, export all the dictionary in .po files and empty the dictionary.
+
+= beta 1.4.4 = 
+* 111221 - fixes
+* between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20111221 - MS - dev.xiligroup.com
+© 20120417 - MS - dev.xiligroup.com
