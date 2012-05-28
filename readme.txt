@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.2.1
-Tested up to: 3.4
-Stable tag: 2.0.0
+Tested up to: 3.4-rc
+Stable tag: 2.1.0
 
 xili-dictionary is a dictionary storable in CPT and terms to create and translate .po files or .mo files and more... 
 
@@ -19,19 +19,24 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 
 = roadmap =
-* code source cleaning
-* readme rewritting
-* tags and more for msg lines
-* dictionary for other than theme's .po, .mo files
+* code source cleaning,
+* readme rewritting and transfered to wiki xili,
+* dictionary for other than theme's .po, .mo files.
 
-= NEW 2.0: MAJOR UPGRADE =
+= N E W - 2.1 - MAJOR UPDATE =
+* requires version 2.6 of xili-language if used in multilingual website context.
+* now uses and saves local .po/mo files (named local-xx_XX.mo) (containing local datas of current site - not saved in theme's .po/mo files - as before).
+* now uses origin taxonomy to shared a dictionary between different themes.
+* See short presentation of new in the [wiki xili](http://wiki.xiligroup.org/index.php/Xili-language_v2.6:_what%27s_new_with_xili-dictionary_v2.1))
+
+= 2.0: MAJOR UPGRADE =
 * new way of saving lines in CPT 
 * use as soon as possible wp-admin UI library
 * now msg lines full commented as in .po
 * now translated lines (msgstr) attached to same taxonomy as xili-language (> 2.4.1)
 * VERY IMPORTANT : before upgrading from 1.4.4 to 2.0, export all the dictionary content in .po files and empty the dictionary table.
 
-For previous versions, see Changelog and readme in tab Other Versions. 
+For previous versions, see Changelog and readme.txt shipped in tab Other Versions. 
 
 == Installation ==
 
@@ -94,7 +99,7 @@ msgstr[1] "commentaires"
 
 = What happens if only the .mo is available ? =
 
-xili-dictionary is able to import a .mo of the target language and rebuild a .po editable in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme.
+xili-dictionary is able to import a .mo of the target language and rebuild a .po editable file in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme.
 
 
 
@@ -105,6 +110,8 @@ xili-dictionary is able to import a .mo of the target language and rebuild a .po
 3. Msg list table screen as designed with WP admin UI library.
 4. MsgID with his singular and his plural line.
 5. MsgSTR with his plural.
+
+* See also illustrated presentations in the [wiki](http://wiki.xiligroup.org/).
 
 == Upgrade Notice ==
 
@@ -127,6 +134,12 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 
+= 2.1.0 (2012-05-28) =
+* in multilingual website context, requires version 2.6 of xili-language.
+* local datas saved in local-xx_XX .mo/po files. 
+* origin taxonomy used to manage one dictionary with multiple themes.
+* See short presentation of new in the [wiki xili](http://wiki.xiligroup.org/index.php/Xili-language_v2.6:_what%27s_new_with_xili-dictionary_v2.1))
+
 = 2.0.0 = 
 * 120417 - repository as current
 * 120405 - pre-tests with WP 3.4: fixes metaboxes columns
@@ -141,4 +154,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20120417 - MS - dev.xiligroup.com
+© 20120528 - MS - dev.xiligroup.com
