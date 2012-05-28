@@ -1,0 +1,1150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xili_dictionary\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-10 18:44+0100\n"
+"PO-Revision-Date: 2012-05-10 18:50+0100\n"
+"Last-Translator: dev.xiligroup <contact@xiligroup.com>\n"
+"Language-Team: Michel SCRIBAN <michel@scriban.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: xili-dictionary.php:244
+msgid "xili-dictionary©"
+msgstr "Dictionnaire xili©"
+
+#: xili-dictionary.php:245
+msgid "Msg"
+msgstr "Msg"
+
+#: xili-dictionary.php:246
+msgid "New msgid"
+msgstr "Ajout msg"
+
+#: xili-dictionary.php:247
+msgid "Add New Msgid"
+msgstr "Ajout msgid"
+
+#: xili-dictionary.php:248
+msgid "Edit Msg"
+msgstr "Editer le msg"
+
+#: xili-dictionary.php:249
+msgid "New Msg"
+msgstr "Nouveau msg"
+
+#: xili-dictionary.php:250
+msgid "View Msg"
+msgstr "Afficher"
+
+#: xili-dictionary.php:251
+msgid "Search Msg"
+msgstr "Chercher msg"
+
+#: xili-dictionary.php:252
+msgid "No Msg found"
+msgstr "Pas de msg trouvé"
+
+#: xili-dictionary.php:253
+msgid "No Msg found in Trash"
+msgstr "Pas de msg dans la poubelle"
+
+#: xili-dictionary.php:280
+msgid "Writer"
+msgstr "Ecrivain"
+
+#: xili-dictionary.php:300
+msgid "Origin"
+msgstr "Origine"
+
+#: xili-dictionary.php:414
+msgid "xd-style.css is in sub-folder xili-css of current theme folder"
+msgstr "xd-style.css est dans le sous-dossier xili-css du thème courant"
+
+#: xili-dictionary.php:419
+#, php-format
+msgid "xd-style.css is in sub-folder xili-css of %s folder"
+msgstr "xd-style.css est dans le sous-dossier xili-css du dossier %s"
+
+#: xili-dictionary.php:424
+msgid "xd-style.css is in sub-folder xili-css of xili-dictionary plugin folder (example)"
+msgstr "xd-style.css est dans le sous-dossier xili-css de l'extension xili-dictionary (exemple à ne pas modifier)"
+
+#: xili-dictionary.php:426
+msgid "no xd-style.css"
+msgstr "pas fichier xd-style.css"
+
+#: xili-dictionary.php:492
+msgid "A term with the name provided already exists."
+msgstr "Le terme avec ce même nom existe."
+
+#: xili-dictionary.php:637
+#, php-format
+msgid "msgid exists as %d with content: %s"
+msgstr "msgid existe dans %d tel que : %s"
+
+#: xili-dictionary.php:655
+#, php-format
+msgid "msg %s"
+msgstr "msg %s"
+
+#: xili-dictionary.php:692
+msgid "Informations and actions about files .po / mo"
+msgstr "Informations et actions à propos des fichiers .po / mo"
+
+#: xili-dictionary.php:701
+msgid "Come from theme(s):"
+msgstr "Thème(s) d'origine :"
+
+#: xili-dictionary.php:704
+msgid "Not yet assigned"
+msgstr "Non affecté"
+
+#: xili-dictionary.php:712
+#, php-format
+msgid "theme folder %s"
+msgstr "dossier du thème %s"
+
+#: xili-dictionary.php:713
+#: xili-dictionary.php:3282
+msgid "this site"
+msgstr "ce site"
+
+#: xili-dictionary.php:713
+#, php-format
+msgid "folder %s"
+msgstr "dossier %s"
+
+#: xili-dictionary.php:715
+msgid "saved in "
+msgstr "sauvé dans"
+
+#: xili-dictionary.php:1002
+msgid "Content"
+msgstr "Contenu"
+
+#: xili-dictionary.php:1003
+#: xili-dictionary.php:2186
+msgid "Metas"
+msgstr "Métas"
+
+#: xili-dictionary.php:1005
+msgid "Language"
+msgstr "Langue"
+
+#: xili-dictionary.php:1063
+msgid "View all languages"
+msgstr "Voir toutes les langues"
+
+#: xili-dictionary.php:1090
+msgid "View all origins"
+msgstr "Voir toutes les sources"
+
+#: xili-dictionary.php:1119
+msgid "View all writers"
+msgstr "Voir tous les rédacteurs"
+
+#: xili-dictionary.php:1189
+msgid "Context"
+msgstr "Contexte"
+
+#: xili-dictionary.php:1196
+#, php-format
+msgid "&nbsp;<a href=\"%s\" >Edit context</a>"
+msgstr "&nbsp;<a href=\"%s\" >Modifier le contenu</a>"
+
+#: xili-dictionary.php:1199
+#, php-format
+msgid "&nbsp;<a href=\"%s\" >Create context</a>"
+msgstr "&nbsp;<a href=\"%s\" >Créer un contexte</a>"
+
+#: xili-dictionary.php:1216
+#, php-format
+msgid "Return to %s list"
+msgstr "Retour à la liste %s"
+
+#: xili-dictionary.php:1226
+#, php-format
+msgid "Extracted comments: %s"
+msgstr "Commentaires extraits: %s"
+
+#: xili-dictionary.php:1229
+#, php-format
+msgid "Translator comments: %s"
+msgstr "Commentaires traducteur : %s"
+
+#: xili-dictionary.php:1231
+#, php-format
+msgid "Flags: %s"
+msgstr "Drapeaux : %s"
+
+#: xili-dictionary.php:1239
+msgid "msgstr Translator comments"
+msgstr "Commentaire traducteur msgstr"
+
+#: xili-dictionary.php:1248
+#, php-format
+msgid "Lines: %s"
+msgstr "Lignes : %s"
+
+#: xili-dictionary.php:1251
+#: xili-dictionary.php:1273
+#, php-format
+msgid "Return to <a href=\"%s\" title=\"Go to msg list\">msg list</a>"
+msgstr "Retour à la <a href=\"%s\" title=\"Aller à la liste msg\">liste msg</a>"
+
+#: xili-dictionary.php:1260
+#, php-format
+msgid "Set in theme (<a href=\"%s\" >set local</a>)"
+msgstr "Mis dans le thème (<a href=\"%s\" >mettre en local</a>)"
+
+#: xili-dictionary.php:1265
+#, php-format
+msgid "Set in local (<a href=\"%s\" >unset</a>)"
+msgstr "Affecté en local (<a href=\"%s\" >désaffecter</a>)"
+
+#: xili-dictionary.php:1272
+#, php-format
+msgid "The msgid (%d) was deleted. The msg series must be recreated and commented."
+msgstr "Le msgid (%d) a été effacé. La série des msgs doit être récréée et commentée."
+
+#: xili-dictionary.php:1340
+msgid "XD say to translate:"
+msgstr "XD indique de traduire :"
+
+#: xili-dictionary.php:1351
+#: xili-dictionary.php:1635
+msgid "XD say to translate (msgstr[0]): "
+msgstr "XD indique de traduire (msgstr[0]): "
+
+#: xili-dictionary.php:1363
+#: xili-dictionary.php:1644
+msgid "XD say to translate (msgstr[1]): "
+msgstr "XD indique de traduire (msgstr[1]): "
+
+#: xili-dictionary.php:1387
+#: xili-dictionary.php:1654
+msgid "XD say id to plural: "
+msgstr "XD indique id au plural: "
+
+#: xili-dictionary.php:1408
+msgid "msgid:"
+msgstr "msgid :"
+
+#: xili-dictionary.php:1411
+#: xili-dictionary.php:1427
+#: xili-dictionary.php:1607
+#, php-format
+msgid "( <a href=\"%s\" title=\"link to:%d\" >%s</a> )<br />"
+msgstr "( <a href=\"%s\" title=\"lien pour :%d\" >%s</a> )<br />"
+
+#: xili-dictionary.php:1411
+#: xili-dictionary.php:1427
+#: xili-dictionary.php:1476
+#: xili-dictionary.php:1496
+#: xili-dictionary.php:1607
+#: xili-dictionary.php:1702
+#: xili-dictionary.php:1715
+#: xili-dictionary.php:1788
+#: xili-dictionary.php:1800
+#: xili-dictionary.php:1817
+#: xili-dictionary.php:1819
+#: xili-dictionary.php:3284
+msgid "Edit"
+msgstr "Modifier"
+
+#: xili-dictionary.php:1421
+msgid "msgid_plural:"
+msgstr ""
+
+#: xili-dictionary.php:1435
+#: xili-dictionary.php:1612
+#, php-format
+msgid "&nbsp;<a href=\"%s\" >Create msgid_plural</a>"
+msgstr "&nbsp;<a href=\"%s\" >Créer msgid_plural</a>"
+
+#: xili-dictionary.php:1445
+#: xili-dictionary.php:1665
+#: xili-dictionary.php:1668
+msgid "translated in"
+msgstr "traduit en"
+
+#: xili-dictionary.php:1514
+#: xili-dictionary.php:1526
+#: xili-dictionary.php:1730
+#: xili-dictionary.php:1744
+msgid "Create msgstr in: "
+msgstr "Créer un msgstr :"
+
+#: xili-dictionary.php:1524
+#: xili-dictionary.php:1741
+msgid "not yet translated."
+msgstr "non traduit."
+
+#: xili-dictionary.php:1534
+#, php-format
+msgid "The msgid (%d) was deleted. The msg series must be recreated."
+msgstr "Le msgid (%d) est effacé. La série doit être re-créée."
+
+#: xili-dictionary.php:1585
+#, php-format
+msgid "msgid saved as: <em>%s</em>"
+msgstr "msgid stocké : <em>%s</em>"
+
+#: xili-dictionary.php:1598
+#, php-format
+msgid "has plural: <a href=\"%s\" >%d</a><br />"
+msgstr "a le plural: <a href=\"%s\" >%d</a><br />"
+
+#: xili-dictionary.php:1602
+msgid "has plural:"
+msgstr "a un plural :"
+
+#: xili-dictionary.php:1625
+msgid "XD say to translate: "
+msgstr "XD indique de traduire :"
+
+#: xili-dictionary.php:1779
+#, php-format
+msgid "%s saved as: <em>%s</em>"
+msgstr "%s sauvé comme : <em>%s</em>"
+
+#: xili-dictionary.php:1788
+#, php-format
+msgid "msgid plural of: <strong>%s</strong> ( <a href=\"%s\" title=\"link to:%d\" >%s</a> )<br />"
+msgstr "msgid plural de : <strong>%s</strong> ( <a href=\"%s\" title=\"lien vers :%d\" >%s</a> )<br />"
+
+#: xili-dictionary.php:1790
+#, php-format
+msgid "msgid plural of: <a href=\"%s\" >%d</a><br />"
+msgstr "msgid plural de : <a href=\"%s\" >%d</a><br />"
+
+#: xili-dictionary.php:1800
+#, php-format
+msgid "( <a href=\"%s\" title = \"link of:%d\">%s</a> )<br />"
+msgstr "( <a href=\"%s\" title = \"lien vers :%d\">%s</a> )<br />"
+
+#: xili-dictionary.php:1803
+#: xili-dictionary.php:1824
+#, php-format
+msgid "msgstr of: <a href=\"%s\" >%d</a><br />"
+msgstr "msgstr de : <a href=\"%s\" >%d</a><br />"
+
+#: xili-dictionary.php:1817
+#, php-format
+msgid "<strong>%s</strong> plural of: <strong>%s</strong>( <a href=\"%s\" title=\"link to:%d\">%s</a> )<br />"
+msgstr "<strong>%s</strong> plural de : <strong>%s</strong>( <a href=\"%s\" title=\"lien vers :%d\">%s</a> )<br />"
+
+#: xili-dictionary.php:1819
+#, php-format
+msgid "<strong>%s</strong> translation of: <strong>%s</strong>( <a href=\"%s\" title=\"link to:%d\">%s</a> )<br />"
+msgstr "<strong>%s</strong> traduction de : <strong>%s</strong>( <a href=\"%s\" title=\"lien vers :%d\">%s</a> )<br />"
+
+#: xili-dictionary.php:1828
+#, php-format
+msgid "msgstr[%d] plural of: <a href=\"%s\" >%d</a><br />"
+msgstr "msgstr[%d] plural de: <a href=\"%s\" >%d</a><br />"
+
+#: xili-dictionary.php:1833
+#, php-format
+msgid "go to <a href=\"%s\" title=\"link to:%d\">msgid</a>"
+msgstr "pointer le <a href=\"%s\" title=\"lien vers :%d\">msgid</a>"
+
+#: xili-dictionary.php:1904
+msgid "Xili Dictionary"
+msgstr "Dictionnaire xili™"
+
+#: xili-dictionary.php:1904
+msgid "Tools, Files po mo"
+msgstr "Outils, Fichiers po mo"
+
+#: xili-dictionary.php:1913
+msgid "Msg list"
+msgstr "Liste msg"
+
+#: xili-dictionary.php:1915
+msgid "XD Msg list"
+msgstr "Liste XD msg"
+
+#: xili-dictionary.php:1923
+msgid "Message"
+msgstr ""
+
+#: xili-dictionary.php:1924
+msgid "Info"
+msgstr ""
+
+#: xili-dictionary.php:1925
+msgid "XD style settings"
+msgstr "Réglages style XD"
+
+#: xili-dictionary.php:1941
+msgid "Settings"
+msgstr "Réglages"
+
+#: xili-dictionary.php:2075
+msgid "Note:"
+msgstr "Note et message :"
+
+#: xili-dictionary.php:2082
+msgid "child of"
+msgstr "enfant de"
+
+#: xili-dictionary.php:2094
+msgid "xili-language-ms is active !"
+msgstr "xili-language multisite est actif !"
+
+#: xili-dictionary.php:2099
+msgid "xili-language plugin is not present !"
+msgstr "L'extension xili-language n'est pas présente."
+
+#: xili-dictionary.php:2102
+msgid "xili-language plugin is not activated !"
+msgstr "L'extension xili-language n'est pas activée."
+
+#: xili-dictionary.php:2107
+msgid "xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the taxonomy tables of WordPress. With this dictionary, it is possible to create and update .mo file in the current theme folder. And more..."
+msgstr "L'extension xili-dictionary est destinée à créer et mettre à jour les fichiers .mo (et .po aussi) du thème courant. Elle est utile pour les thèmes internationaux ou les thèmes multilingues 'live' pilotés par xili-language."
+
+#: xili-dictionary.php:2110
+msgid "Theme's informations:"
+msgstr "A propos du thème :"
+
+#: xili-dictionary.php:2113
+msgid "Languages sub-folder:"
+msgstr "Sous-dossier langages :"
+
+#: xili-dictionary.php:2116
+msgid "No languages files are present in theme's folder or theme's sub-folder: <strong>add at least a .po or a .mo inside.</strong><br /> Errors will occur if you try to import or export!"
+msgstr "Aucun fichier de langues détectés dans le dossier (ou sous-dossier) du thème !  <strong>déposer y au moins un fichier .po or a .mo ,</strong><br />Des erreurs risquent d'arriver si vous tentez des imports ou exports."
+
+#: xili-dictionary.php:2118
+msgid "Available MO files:"
+msgstr "Fichiers MO dispo :"
+
+#: xili-dictionary.php:2135
+msgid "External file xd-style.css for dashboard (flags, customization)"
+msgstr "Fichier xd-style.css pour le tableau de bord (drapeau, personnalisation)"
+
+#: xili-dictionary.php:2139
+msgid "There is no style for dashboard"
+msgstr "Il n'y a de style pour le tableau de bord"
+
+#: xili-dictionary.php:2148
+msgid "No style for dashboard"
+msgstr "Pas de style"
+
+#: xili-dictionary.php:2153
+msgid "Activate style for dashboard"
+msgstr "Activer le style"
+
+#: xili-dictionary.php:2158
+msgid "Dictionary Styles"
+msgstr "Style du dictionnaire"
+
+#: xili-dictionary.php:2163
+msgid "Change style mode"
+msgstr "Changer le type de style"
+
+#: xili-dictionary.php:2183
+msgid "ID"
+msgstr ""
+
+#: xili-dictionary.php:2184
+msgid "Text"
+msgstr "Texte"
+
+#: xili-dictionary.php:2187
+msgid "Save status"
+msgstr "Stockage"
+
+#: xili-dictionary.php:2188
+msgid "Action"
+msgstr "Action"
+
+#: xili-dictionary.php:2252
+msgid "What about comments"
+msgstr "En ce qui concerne les commentaires"
+
+#: xili-dictionary.php:2254
+msgid "No change"
+msgstr "Sans changement"
+
+#: xili-dictionary.php:2255
+msgid "Imported comments replace those in list"
+msgstr "Les commentaires importés remplacent les anciens..."
+
+#: xili-dictionary.php:2256
+msgid "Imported comments be appended..."
+msgstr "Les commentaires importés sont ajoutés..."
+
+#: xili-dictionary.php:2263
+#, php-format
+msgid "Verify before that you are authorized to write in languages folder in theme named: %s"
+msgstr "Avant: vérifier que vous êtes bien habilité à modifier les fichiers langues dans le thème dénommé %s"
+
+#: xili-dictionary.php:2270
+#, php-format
+msgid "SuperAdmin: %sonly as theme .mo"
+msgstr "En tant que Super Admin : %smodifier le .mo du thème original"
+
+#: xili-dictionary.php:2272
+#, php-format
+msgid "SuperAdmin: %sonly as theme .po"
+msgstr "En tant que Super Admin : %smodifier le .mo du thème original"
+
+#: xili-dictionary.php:2284
+msgid "Save only local-xx_XX.mo sub-selection"
+msgstr "Sauver seulement la sous -sélection local-xx_XX.mo"
+
+#: xili-dictionary.php:2287
+msgid "Save only local-xx_XX.po sub-selection"
+msgstr "Sauver seulement la sous -sélection local-xx_XX.po"
+
+#: xili-dictionary.php:2301
+#, php-format
+msgid "import terms from local-xx_YY.%s"
+msgstr "importer les termes du fichier local-xx_XX.%s"
+
+#: xili-dictionary.php:2314
+msgid "Check Origin(s) to be exported"
+msgstr "Cocher selon les origines à exporter"
+
+#: xili-dictionary.php:2338
+msgid "Slug:"
+msgstr "Code"
+
+#: xili-dictionary.php:2350
+msgid "This box is used for input dialog, leave it opened and visible…"
+msgstr "Cette fenêtre est utilisée pour le dialogue : laisser visible et ouverte..."
+
+#: xili-dictionary.php:2380
+msgid "The files"
+msgstr "Les fichiers"
+
+#: xili-dictionary.php:2388
+msgid "Create or Update mo file in current theme folder"
+msgstr "Crée ou met à jour le fichier .mo dans le dossier du thème actif"
+
+#: xili-dictionary.php:2388
+#: xili-dictionary.php:2675
+msgid "Export mo file"
+msgstr "Créer un fichier .mo"
+
+#: xili-dictionary.php:2389
+msgid "Import po/mo file"
+msgstr "Import d'un fichier "
+
+#: xili-dictionary.php:2389
+msgid "Import an existing .po file from current theme folder"
+msgstr "Importe un fichier .po existant dans le dossier du thème actif"
+
+#: xili-dictionary.php:2390
+msgid "Import an existing .mo file from current theme folder"
+msgstr "Importe un fichier .po existant dans le dossier du thème actif"
+
+#: xili-dictionary.php:2391
+msgid "Create or Update po file in current theme folder"
+msgstr "Crée ou met à jour le fichier .po dans le dossier du thème actif"
+
+#: xili-dictionary.php:2391
+#: xili-dictionary.php:2753
+msgid "Export po file"
+msgstr "Créer un fichier .po"
+
+#: xili-dictionary.php:2393
+msgid "The taxonomies"
+msgstr "Les taxinomies du site."
+
+#: xili-dictionary.php:2394
+msgid "Import name and description of taxonomy"
+msgstr "Importe nom et description des taxinomies"
+
+#: xili-dictionary.php:2394
+#: xili-dictionary.php:2931
+msgid "Import terms of taxonomy"
+msgstr "Importer les noms et descriptions des taxinomies"
+
+#: xili-dictionary.php:2396
+msgid "The website infos (title, sub-title and more…)"
+msgstr "Les infos du site (titre, sous-titre etc…)"
+
+#: xili-dictionary.php:2398
+msgid "…and comment, locale, date terms."
+msgstr "… et les termes pour commentaires, locaux et dates."
+
+#: xili-dictionary.php:2400
+msgid "Import infos of web site and more"
+msgstr "Importer les éléments des infos du site et plus"
+
+#: xili-dictionary.php:2400
+msgid "Import terms of website's infos"
+msgstr "Importer les termes des infos du site"
+
+#: xili-dictionary.php:2402
+#: xili-dictionary.php:3036
+msgid "Dictionary"
+msgstr "Dictionnaire"
+
+#: xili-dictionary.php:2403
+msgid "Erase all terms of dictionary ! (but not .mo or .po files)"
+msgstr "Effacer tous les termes du dictionnaire ! (les fichiers .mo et .po ne sont pas effacés)"
+
+#: xili-dictionary.php:2403
+#: xili-dictionary.php:2958
+msgid "Erase all terms"
+msgstr "Effacer le dictionnaire &raquo;"
+
+#: xili-dictionary.php:2416
+msgid "Sub list of terms"
+msgstr "Sélection des termes par"
+
+#: xili-dictionary.php:2417
+msgid "Starting with:"
+msgstr "Commençant par :"
+
+#: xili-dictionary.php:2419
+msgid "Containing:"
+msgstr "Incluant :"
+
+#: xili-dictionary.php:2422
+#: xili-dictionary.php:2441
+msgid "Sub select…"
+msgstr "Sous sélectionner…"
+
+#: xili-dictionary.php:2423
+msgid "No select…"
+msgstr "Désélection"
+
+#: xili-dictionary.php:2427
+msgid "Selection by language"
+msgstr "Sélection par langue"
+
+#: xili-dictionary.php:2429
+msgid "No sub-selection"
+msgstr "Sans sous-sélection"
+
+#: xili-dictionary.php:2431
+msgid "Only MsgID (en_US)"
+msgstr "Que le MsgID (en_US)"
+
+#: xili-dictionary.php:2433
+msgid "Only Msgstr"
+msgstr ""
+
+#: xili-dictionary.php:2435
+msgid "Only Msgstr plural"
+msgstr ""
+
+#: xili-dictionary.php:2454
+msgid "Language to delete"
+msgstr "Langue à supprimer"
+
+#: xili-dictionary.php:2455
+msgid "Only the languages list is here modified (but not the dictionary's contents)"
+msgstr "Seule la liste des langages est modifiée mais pas les contenus du dictionaire"
+
+#: xili-dictionary.php:2458
+msgid "Select..."
+msgstr "Choisir..."
+
+#: xili-dictionary.php:2464
+msgid "Delete a language"
+msgstr "Supprimer une langue"
+
+#: xili-dictionary.php:2468
+msgid "Language to add"
+msgstr "Langue à ajouter"
+
+#: xili-dictionary.php:2469
+msgid "ISO (xx_YY)"
+msgstr "Code (xx_YY)"
+
+#: xili-dictionary.php:2471
+msgid "Name (eng.)"
+msgstr "Nom (angl.)"
+
+#: xili-dictionary.php:2475
+msgid "Add a language"
+msgstr "Ajouter une langue"
+
+#: xili-dictionary.php:2529
+msgid "Dialog box"
+msgstr "Boite de dialogue"
+
+#: xili-dictionary.php:2531
+msgid "Do &raquo;"
+msgstr "Ajouter&raquo;"
+
+#: xili-dictionary.php:2532
+msgid "Cancel"
+msgstr "Annuler"
+
+#: xili-dictionary.php:2676
+msgid "To create a .mo file, choose language and click below."
+msgstr "Pour créer un fichier .mo, choisir le langage et cliquer ci-dessous."
+
+#: xili-dictionary.php:2677
+#: xili-dictionary.php:2755
+msgid "Export &raquo;"
+msgstr "Créer &raquo;"
+
+#: xili-dictionary.php:2741
+#, php-format
+msgid "error during exporting in %2s %1s.mo file."
+msgstr "Erreur pendant la création du fichier %2s %1s.mo."
+
+#: xili-dictionary.php:2743
+#, php-format
+msgid "exported in %2s %1s.mo file."
+msgstr "fichier %2s %1s.mo créé."
+
+#: xili-dictionary.php:2754
+msgid "To export terms in a .po file, choose language and click below."
+msgstr "Pour exporter les lignes du fichier .po courant, cliquer çi-dessous."
+
+#: xili-dictionary.php:2819
+#, php-format
+msgid "error during exporting in %2s  %1s.po file."
+msgstr "Erreur pendant la création du fichier %2s %1s.po."
+
+#: xili-dictionary.php:2821
+#, php-format
+msgid "exported in %2s %1s.po file."
+msgstr "Fichier %2s %1s.po créé."
+
+#: xili-dictionary.php:2830
+msgid "Import po file"
+msgstr "Import d'un fichier po"
+
+#: xili-dictionary.php:2831
+msgid "To import terms of the current .po, choose language and click below."
+msgstr "Pour importer les lignes du fichier .po, choisir la langue, cliquer çi-dessous."
+
+#: xili-dictionary.php:2832
+#: xili-dictionary.php:2839
+msgid "Import &raquo;"
+msgstr "Importer &raquo;"
+
+#: xili-dictionary.php:2837
+msgid "Import mo file"
+msgstr "Import d'un fichier .mo"
+
+#: xili-dictionary.php:2838
+msgid "To import terms of the current .mo, choose language and click below."
+msgstr "Pour importer les lignes du fichier .mo, choisir la langue et cliquer ci-dessous."
+
+#: xili-dictionary.php:2844
+msgid "line imported from po file: "
+msgstr "ligne(s) importée(s) du fichier .po"
+
+#: xili-dictionary.php:2866
+#: xili-dictionary.php:2901
+msgid "id lines = "
+msgstr "lignes id ="
+
+#: xili-dictionary.php:2866
+#: xili-dictionary.php:2901
+msgid "str lines = "
+msgstr ""
+
+#: xili-dictionary.php:2870
+msgid "po file is not present."
+msgstr "Le fichier .po est absent."
+
+#: xili-dictionary.php:2876
+msgid "line imported from mo file: "
+msgstr "ligne(s) importée(s) du fichier .mo"
+
+#: xili-dictionary.php:2901
+msgid "str lines up = "
+msgstr ""
+
+#: xili-dictionary.php:2904
+msgid "mo file is not present."
+msgstr "Le fichier .mo est absent."
+
+#: xili-dictionary.php:2910
+msgid "Import terms of blog info and others…"
+msgstr "Importer les termes des infos du site..."
+
+#: xili-dictionary.php:2911
+msgid "To import terms of blog info and others…, click below."
+msgstr "Pour importer les termes du thème courant, cliquer çi-dessous."
+
+#: xili-dictionary.php:2912
+msgid "Import blog info terms &raquo;"
+msgstr "Importer tous les termes &raquo;"
+
+#: xili-dictionary.php:2923
+msgid "imported with success"
+msgstr "importé avec succès"
+
+#: xili-dictionary.php:2925
+msgid "already imported"
+msgstr "déjà importé"
+
+#: xili-dictionary.php:2932
+msgid "To import terms of the current taxonomy named, click below."
+msgstr "Pour importer les termes du thème courant, cliquer çi-dessous."
+
+#: xili-dictionary.php:2933
+msgid "Import taxonomy’s terms &raquo;"
+msgstr "Importer &raquo;"
+
+#: xili-dictionary.php:2945
+msgid "names = "
+msgstr ""
+
+#: xili-dictionary.php:2945
+msgid "descs = "
+msgstr ""
+
+#: xili-dictionary.php:2947
+#, php-format
+msgid "taxonomy -%s- terms pbs!"
+msgstr "problème avec les termes de la taxinomie -%s-"
+
+#: xili-dictionary.php:2951
+#, php-format
+msgid "taxonomy -%s- do not exists"
+msgstr "La taxinomie -%s- n'existe pas"
+
+#: xili-dictionary.php:2959
+msgid "To erase terms of the dictionary, click below. (before, create a .po if necessary!)"
+msgstr "Efface tous les termes du dictionnaire ! mais pas les fichiers .po et .mo"
+
+#: xili-dictionary.php:2960
+msgid "Erase all terms &raquo;"
+msgstr "Effacer le dictionnaire &raquo;"
+
+#: xili-dictionary.php:2971
+#: xili-dictionary.php:3025
+msgid "All terms erased !"
+msgstr "Tous les termes effacés !"
+
+#: xili-dictionary.php:2977
+msgid "Import all terms from current theme"
+msgstr "Importer les termes du thème courant"
+
+#: xili-dictionary.php:2978
+msgid "To import terms of the current theme, click below."
+msgstr "Pour importer les termes du thème courant, cliquer çi-dessous."
+
+#: xili-dictionary.php:2979
+msgid "Import all terms &raquo;"
+msgstr "Importer tous les termes &raquo;"
+
+#: xili-dictionary.php:2981
+msgid "List of scanned files:"
+msgstr "Liste des fichiers analysés :"
+
+#: xili-dictionary.php:2989
+#: xili-dictionary.php:3023
+msgid "All terms imported !"
+msgstr "tous les éléments importés : "
+
+#: xili-dictionary.php:2993
+msgid "terms = "
+msgstr ""
+
+#: xili-dictionary.php:2995
+msgid "theme’s terms pbs!"
+msgstr "Problème dans les éléments du thème"
+
+#: xili-dictionary.php:3003
+msgid "Find above the list of terms."
+msgstr "Voici ci-dessus la liste des termes."
+
+#: xili-dictionary.php:3008
+msgid "Import & export"
+msgstr "Importer et exporter"
+
+#: xili-dictionary.php:3009
+msgid "Terms list management"
+msgstr "Gestion de l'affichage des termes"
+
+#: xili-dictionary.php:3011
+msgid "Languages list management"
+msgstr "Gestion de la liste des langues"
+
+#: xili-dictionary.php:3014
+msgid "Multilingual Terms"
+msgstr "Termes en plusieurs langues"
+
+#: xili-dictionary.php:3019
+msgid "A new term was added."
+msgstr "Un nouveau terme a été ajouté."
+
+#: xili-dictionary.php:3020
+msgid "A term was updated."
+msgstr "Un terme a été mis à jour."
+
+#: xili-dictionary.php:3021
+msgid "A term was deleted."
+msgstr "Un terme a été supprimé."
+
+#: xili-dictionary.php:3022
+msgid "terms imported from WP: "
+msgstr "éléments importés : "
+
+#: xili-dictionary.php:3026
+msgid "Error when adding !"
+msgstr "Erreur à la création !"
+
+#: xili-dictionary.php:3027
+msgid "Error when updating !"
+msgstr "Erreur lors de la mise à jour !"
+
+#: xili-dictionary.php:3075
+msgid "Author"
+msgstr "Auteur"
+
+#: xili-dictionary.php:3093
+msgid "All lines"
+msgstr "Tous"
+
+#: xili-dictionary.php:3096
+msgid "First"
+msgstr "Début"
+
+#: xili-dictionary.php:3097
+msgid "Last page"
+msgstr "Fin"
+
+#: xili-dictionary.php:3098
+msgid "Next"
+msgstr "Suiv."
+
+#: xili-dictionary.php:3099
+msgid "Previous"
+msgstr "Préc."
+
+#: xili-dictionary.php:3101
+msgid "Showing (_START_ to _END_) of _TOTAL_ entries"
+msgstr "Affiche (_START_ à _END_) des _TOTAL_ lignes"
+
+#: xili-dictionary.php:3102
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(filtrés du total des _MAX_ lignes)"
+
+#: xili-dictionary.php:3103
+msgid "Show _MENU_ entries"
+msgstr "Afficher _MENU_ lignes"
+
+#: xili-dictionary.php:3104
+msgid "Filter terms:"
+msgstr "Filtrer les termes :"
+
+#: xili-dictionary.php:3383
+msgid "No translations saved in theme's .mo files"
+msgstr "Non traduit dans les .mo du thème"
+
+#: xili-dictionary.php:3383
+msgid "Original with translations saved in theme's files: "
+msgstr "Original avec traductions dans les .mo du thème : "
+
+#: xili-dictionary.php:3385
+msgid "No translations saved in local-xx_XX .mo files"
+msgstr "Non traduit dans les local-xx_XX.mo du thème"
+
+#: xili-dictionary.php:3385
+msgid "Original with translations saved in local-xx_XX files: "
+msgstr "Original avec traductions dans les local-xx_XX.mo du thème : "
+
+#: xili-dictionary.php:3389
+msgid "No translations saved in site's .mo files"
+msgstr "Non traduit dans les .mo du thème"
+
+#: xili-dictionary.php:3389
+msgid "Original with translations saved in site's files: "
+msgstr "Original avec traductions dans les .mo du thème : "
+
+#: xili-dictionary.php:3391
+msgid "No translations saved in site's local .mo files"
+msgstr "Non traduit dans les .mo du site"
+
+#: xili-dictionary.php:3391
+msgid "Original with translations saved in site's local files: "
+msgstr "Original avec traductions dans les .mo du site : "
+
+#: xili-dictionary.php:4270
+msgid "error"
+msgstr "erreur"
+
+#: xili-dictionary.php:4294
+msgid "List of found terms"
+msgstr "Liste des termes trouvés"
+
+#: xili-dictionary.php:4330
+msgid "Uncommon filename"
+msgstr "Nom fichier ???"
+
+#: xili-dictionary.php:4335
+msgid "Site's values"
+msgstr "Données du site"
+
+#: xili-dictionary.php:4357
+msgid "Things to remember to set xili-dictionary:"
+msgstr "Eléments à retenir pour paramétrer xili-dictionary :"
+
+#: xili-dictionary.php:4359
+msgid "Verify that the theme is localizable (like kubrick, fusion or twentyten)."
+msgstr "Verifier que le thème utilisé soit bien localisable (tel que kubrick, fusion ou twentyten)."
+
+#: xili-dictionary.php:4360
+msgid "Define the list of targeted languages."
+msgstr "Définir la liste des langues utilisées."
+
+#: xili-dictionary.php:4361
+msgid "Prepare a sub-folder .po and .mo files for each language (use the default delivered with the theme or add the pot of the theme and put them inside."
+msgstr "Dans le dossier du thème, préparer un sous-dossier pour les fichiers .po et .mo de chaque langue (utiliser les fichiers livrés par défaut avec le thème ou ajouter son .pot et insérer les dedans."
+
+#: xili-dictionary.php:4362
+msgid "If you have files: import them to create a base dictionary. If not : add a term or use buttons of import and export metabox."
+msgstr "Si vous avez ces fichiers : importer les pour créer la base initiale du dictionnaire. Sinon, ajouter un terme ou importer les données du site via les boutons de la fenêtre latérale - Importer et exporter"
+
+#: xili-dictionary.php:4365
+msgid "For more information:"
+msgstr "Pour plus d'information :"
+
+#: xili-dictionary.php:4366
+msgid "<a href=\"http://wiki.xiligroup.org\" target=\"_blank\">Xili Plugins Documentation and WIKI</a>"
+msgstr "<a href=\"http://wiki.xiligroup.org\" target=\"_blank\">Wiki de l'extension xili-dictionary</a>"
+
+#: xili-dictionary.php:4367
+msgid "<a href=\"http://dev.xiligroup.com/xili-dictionary\" target=\"_blank\">Xili-dictionary Plugin Documentation</a>"
+msgstr "<a href=\"http://dev.xiligroup.com/xili-dictionary\" target=\"_blank\">Documentation de l'extension xili-dictionary</a>"
+
+#: xili-dictionary.php:4368
+msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">WordPress Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation WordPress (codex)</a>"
+
+#: xili-dictionary.php:4369
+msgid "<a href=\"http://forum2.dev.xiligroup.com/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"http://forum2.dev.xiligroup.com/\" target=\"_blank\">Forum Support</a>"
+
+#~ msgid "Term to update."
+#~ msgstr "Terme à mettre à jour."
+
+#~ msgid "A term to delete. CLICK MENU DICTIONARY TO CANCEL !"
+#~ msgstr "Terme à effacer. Cliquer le menu DICTIONNAIRE pour annuler !"
+
+#~ msgid "Full name"
+#~ msgstr "Nom complet"
+
+#~ msgid "Alias of"
+#~ msgstr "Alias de"
+
+#~ msgid "Term group"
+#~ msgstr "Code groupe"
+
+#~ msgid "Delete term ?"
+#~ msgstr "Supprimer le terme ?"
+
+#~ msgid "Group"
+#~ msgstr "Groupe"
+
+#~ msgid "Add a term"
+#~ msgstr "Ajouter un terme"
+
+#~ msgid "Update &raquo;"
+#~ msgstr "Mettre à jour…"
+
+#~ msgid "Delete &raquo;"
+#~ msgstr "Supprimer…"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid ""
+#~ "To import terms (name and description) of categories into the dictionary "
+#~ "before translation, click below. (to cancel, click Dictionary in "
+#~ "dashboard menu)."
+#~ msgstr ""
+#~ "Cliquer le bouton ci-dessous pour importer les noms et descriptions des "
+#~ "catégories du site dans le dictionnaire xili-dictionary."
+
+#~ msgid "Choose the original term (msgid) to translate"
+#~ msgstr "Choisir le terme (msgid) à traduire"
+
+#~ msgid "Preselected original term (msgid) to translate"
+#~ msgstr "Terme original préselection (msgid) en cours de traduction"
+
+#~ msgid "no parent (= msgid)"
+#~ msgstr "terme de référence (=msgid)"
+
+#~ msgid "Full msg (id or str)"
+#~ msgstr "Le terme (id or str)"
+
+#~ msgid "parent of: "
+#~ msgstr "parent de : "
+
+#~ msgid "Relationship (msgid)"
+#~ msgstr "Terme référent (msgid)"
+
+#~ msgid "Don't forget to verify the language of translation !"
+#~ msgstr "Vérifier la langue de traduction !"
+
+#~ msgid "add a translation"
+#~ msgstr "ajouter une traduction"
+
+#~ msgid "Write original text"
+#~ msgstr "Insérer le texte original"
+
+#~ msgid "Add a context (msgctxt)"
+#~ msgstr "Ajout d'un contexte (msgctxt)"
+
+#~ msgid "with context:"
+#~ msgstr "dans le contexte"
+
+#~ msgid "try another sub-selection !"
+#~ msgstr "Sous-sélection sans résultat !"
+
+#~ msgid "Only:"
+#~ msgstr "Que la :"
+
+#~ msgid "No parent term defined"
+#~ msgstr "Terme parent non défini !"
+
+#~ msgid "Original or translation"
+#~ msgstr "Original ou traduction"
+
+#~ msgid "Full msgid (original)"
+#~ msgstr "La ligne msgid (original)"
+
+#~ msgid "translation of"
+#~ msgstr "traduction de"
+
+#~ msgid "Translation"
+#~ msgstr "Traduction"
+
+#~ msgid "Use only plural terms if theme contains _n() functions"
+#~ msgstr ""
+#~ "N'utiliser les formes pluriels que si le thème contient des fonctions _n"
+#~ "() !"
+
+#~ msgid "Delete a plural"
+#~ msgstr "Supprimer un pluriel"
+
+#~ msgid "translation saved in theme's"
+#~ msgstr "traduction sauvé dans le thème"
+
+#~ msgid "translation saved in site's"
+#~ msgstr "traduction sauvé dans le site"
+
+#~ msgid "saved in %s.mo of theme"
+#~ msgstr "sauvé dans le %s.mo du thème"
+
+#~ msgid "saved in %s.mo of site"
+#~ msgstr "sauvé dans le %s.mo du site"
+
+#~ msgid "not saved in theme or site .mo"
+#~ msgstr "non sauvé dans le thème ou le site (.mo)"
