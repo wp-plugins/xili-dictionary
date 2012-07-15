@@ -4,7 +4,9 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
 Tested up to: 3.4.1
-Stable tag: 2.1.1
+Stable tag: 2.1.2
+License: GPLv2
+
 
 xili-dictionary is a dictionary storable in CPT and terms to create and translate .po files or .mo files and more... 
 
@@ -26,9 +28,12 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 = N E W - 2.1 - MAJOR UPDATE =
 * requires version 2.6 of xili-language if used in multilingual website context.
 * now uses and saves local .po/mo files (named local-xx_XX.mo) (containing local datas of site not saved in theme's .po/mo files as before).
-* now uses origin taxonomy to shared a dictionary between different themes.
+* See [xili wiki about XL 2.6 and XD 2.1](http://wiki.xiligroup.org/index.php/Xili-language_v2.6:_what%27s_new_with_xili-dictionary_v2.1).
+* list of untranslated msgs in edit msg screen. See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary:_what%27s_new_since_version_2.1.2)
+* now uses origin taxonomy to share a dictionary between different themes.
 
-= 2.0: MAJOR UPGRADE =
+
+= 2.0 - MAJOR UPGRADE =
 * new way of saving lines in CPT 
 * use as soon as possible wp-admin UI library
 * now msg lines full commented as in .po
@@ -51,9 +56,11 @@ More infos will be added progressively in a wiki [here](http://wiki.xiligroup.or
 = What about WP multisite (or network - former named WPMU) and the trilogy ? =
 [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
 
-Since WP 3.0-alpha, if multisite is activated, the trilogy is now compatible and will include progressively some improvements dedicaded especially for WP network context. Future specific docs will be available for registered webmasters.
+Since WP 3.0-alpha, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context. Future specific docs will be available for registered webmasters to describe where mo files where saved.
 
 = Where can I see websites using this plugin ? =
+
+More than 3000 websites use xili-language (according peak of version updates in stats).
 
 dev.xiligroup.com [here](http://dev.xiligroup.com/ "a multi-language site"),
 multilingual.wpmu.xilione.com [here](http://multilingual.wpmu.xilione.com/ "a multi-language demo site")
@@ -62,7 +69,7 @@ www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") also u
 
 = What is the difference with msgid and msgtr in .po file ? =
 The msgid line is equal to the term or sentence hardcoded in the theme functions like  ` _e() or __() `. msgstr is the translation in the target language : by instance `fr_FR.po` for a french dictionary. (the compiled file is `fr_FR.mo` saved in the theme folder.
-The root language is in Wordpress currently `en_US`, but with xili-dictionary, it is possible to create a `en_US.mo` containing the only few terms that you want to adapt.
+The root language is in Wordpress currently `en_US`, but with xili-dictionary, it is possible to create a `en_US.mo` containing the only few terms that you want to adapt or modify.
 
 = Is xili-dictionary usable without xili-language to edit .po or .mo file ? =
 
@@ -98,7 +105,7 @@ msgstr[1] "commentaires"
 
 = What happens if only the .mo is available ? =
 
-xili-dictionary is able to import a .mo of the target language and rebuild a .po editable in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme.
+xili-dictionary is able to import a .mo of the target language and rebuild a .po editable in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme (as text backup).
 
 
 
@@ -121,7 +128,7 @@ IMPORTANT - Before updating to xili-dictionary 2.0, export all the dictionary co
 
 This first beta releases are for theme's creator or designer with some knowledges in i18n.
 
-The plugin post is frequently updated [dev.xiligroup.com](http://dev.xiligroup.com/xili-dictionary/ "Why xili-dictionary ?")
+The plugin post is frequently updated [wiki.xiligroup.org](http://wiki.xiligroup.org/index.php/Category:Xili-dictionary_plugin)
 
 See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.php?id=3).
 
@@ -131,7 +138,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 
-= 2.1.0 (2012-05-08) =
+= 2.1.2 (2012-07-15) =
+* list of untranslated msgs in edit msg screen.
+* shortcut in side metabox to update .mo of current lang. See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary:_what%27s_new_since_version_2.1.2 "Wiki")
 * fixes local-xx_XX import - new icons
 = 2.1.0 (2012-05-08) =
 * in multilingual website context, requires version 2.6 of xili-language.
@@ -153,4 +162,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20120710 - MS - dev.xiligroup.com
+© 20120716 - MS - dev.xiligroup.com
