@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
 Tested up to: 3.4.1
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 License: GPLv2
 
 
@@ -138,6 +138,8 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 
+= 2.1.3 (2012-08-20) =
+* fixes
 = 2.1.2 (2012-07-15) =
 * list of untranslated msgs in edit msg screen.
 * shortcut in side metabox to update .mo of current lang. See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary:_what%27s_new_since_version_2.1.2 "Wiki")
@@ -162,4 +164,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20120716 - MS - dev.xiligroup.com
+© 20120820 - MS - dev.xiligroup.com
