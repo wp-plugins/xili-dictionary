@@ -142,7 +142,8 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 = 2.2.0 (2012-09-29) =
-= * fixes issues of 2.1 series (messages, import, conditions, and more…). 2.1.2 and 2.1.3 removed from repository
+* fixes issues of 2.1 series (messages, import, conditions, and more…). 
+* 2.1.2 and 2.1.3 removed from repository
 = 2.1.3 (2012-08-20) =
 * fixes
 = 2.1.2 (2012-07-15) =
