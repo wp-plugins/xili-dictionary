@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
-Tested up to: 3.4.2
-Stable tag: 2.2.0
+Tested up to: 3.5
+Stable tag: 2.3.0
 License: GPLv2
 
 
@@ -25,8 +25,12 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files
 
-= 2.2.0 (2012-09-22) =
+= 2.3.0 (2012-10-22) =
+* add ajax functions for import and erase functions (big files, no freeze)
+* fixes
+* See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary_v2.3:_what%27s_new_%3F)
 
+= 2.2.0 =
 * fixes issues of 2.1 series (messages, import/export, ctxt, conditions, and more…) - thanks to the adventurers ;-)
 
 = 2.1 =
@@ -141,6 +145,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2012 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.3.0 (2012-10-22) =
+* add ajax functions for import and erase functions (big files, no freeze)
+* fixes
 = 2.2.0 (2012-09-29) =
 * fixes issues of 2.1 series (messages, import, conditions, and more…). 
 * 2.1.2 and 2.1.3 removed from repository
@@ -170,4 +177,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20120922 - MS - dev.xiligroup.com
+© 201211202 - MS - dev.xiligroup.com
