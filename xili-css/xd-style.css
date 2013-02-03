@@ -1,0 +1,40 @@
+/*** style xili-dictionary admin - xd-style.css - ***/
+
+/*** === xili-dictionary === ***/
+/*** Contributors: michelwppi, MS dev.xiligroup.com ***/
+/*** Donate link: http://dev.xiligroup.com/ ***/
+
+/** do not modify - will be overwritten during plugin's update **/
+
+tr.lang-en_us th, div#msg-states-comments a.lang-en_us { background: transparent url('flags/en_us.png') no-repeat 60% center; }
+tr.lang-fr_fr th, div#msg-states-comments a.lang-fr_fr { background: transparent url('flags/fr_fr.png') no-repeat 60% center ; }
+tr.lang-es_es th, div#msg-states-comments a.lang-es_es { background: transparent url('flags/es_es.png') no-repeat 60% center ;}
+tr.lang-it_it th, div#msg-states-comments a.lang-it_it { background: transparent url('flags/it_it.png') no-repeat 60% center ;}
+tr.lang-de_de th, div#msg-states-comments a.lang-de_de { background: transparent url('flags/de_de.png') no-repeat 60% center ;}
+tr.lang-ja th, div#msg-states-comments a.lang-ja { background: transparent url('flags/ja.png') no-repeat 60% center ;}
+
+div#msg-states tr[class|="lang"] th>span { 
+	display:inline-block; 
+	/*text-indent:-9999px; 
+	width:20px; */
+	border:0px solid red; 
+	}
+div#msg-states-comments a[class|="lang"]  {
+	display:inline-block;
+	text-indent:-9999px;
+	width:20px;
+}
+
+
+/** do not modify - will be overwritten during plugin's update **/
+
+/** copy xili-css folder in your current theme folder and  move the flags in your current theme /images sub-folder **/
+
+/* ---current theme folder---/xili-css/ */
+/* ---current theme folder---/images/flags/ - as in twentyeleven theme example to be shared by frontend */
+
+
+/** another alternative place **/
+
+/* ---plugins folder---/xilidev-libraries/xili-css/ */
+/* ---plugins folder---/xilidev-libraries/xili-css/flags */
