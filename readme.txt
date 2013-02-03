@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
 Tested up to: 3.5.1
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GPLv2
 
 
@@ -24,32 +24,21 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * code source cleaning
 * readme rewritting
 * dictionary for other than theme's .po, .mo files
-= 2.3.1 (2013-01-27) =
+
+= 2.3.2 (updated 2013-02-03) =
+* improved UI when editing msg,
+* manage capabilities and option to add editing capability to role Editor.
+* add support email form as in xili-language or xili-tidy-tags
+* enable to import mo or po files of themes in languages folder (wp-content). So easy to create an adapted copy in theme languages sub-folder (since WP3.5)
+
+= 2.3.1 =
 * Tests WP 3.5.1 and XL 2.8.4
 = 2.3.0 =
 * add ajax functions for import and erase functions (big files, no freeze)
 * fixes
 * See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary_v2.3:_what%27s_new_%3F)
 
-= 2.2.0 =
-* fixes issues of 2.1 series (messages, import/export, ctxt, conditions, and more…) - thanks to the adventurers ;-)
-
-= 2.1 =
-* requires version 2.6 of xili-language if used in multilingual website context.
-* now uses and saves local .po/mo files (named local-xx_XX.mo) (containing local datas of site not saved in theme's .po/mo files as before).
-* See [xili wiki about XL 2.6 and XD 2.1](http://wiki.xiligroup.org/index.php/Xili-language_v2.6:_what%27s_new_with_xili-dictionary_v2.1).
-* list of untranslated msgs in edit msg screen. See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary:_what%27s_new_since_version_2.1.2)
-* now uses origin taxonomy to share a dictionary between different themes.
-
-
-= 2.0 - MAJOR UPGRADE =
-* new way of saving lines in CPT 
-* use as soon as possible wp-admin UI library
-* now msg lines full commented as in .po
-* now translated lines (msgstr) attached to same taxonomy as xili-language (> 2.4.1)
-* VERY IMPORTANT : before upgrading from 1.4.4 to 2.0, export all the dictionary content in .po files and empty the dictionary table.
-
-For previous versions, see Changelog and readme in tab Other Versions. 
+For previous versions, see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/) and readme in tab Other Versions. 
 
 == Installation ==
 
@@ -146,6 +135,11 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2013 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.3.2 (2013-02-03) =
+* improved UI when editing msg,
+* manage capabilities and option to add editing capability to role Editor.
+* add support email form as in xili-language or xili-tidy-tags
+* enable to import mo or po files of themes in languages folder (wp-content). So easy to create an adapted copy in theme languages sub-folder (since WP3.5)
 = 2.3.1 (2013-01-27) =
 * Tests WP 3.5.1 and XL 2.8.4, fixes
 = 2.3.0 (2012-10-22) =
