@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
 Tested up to: 3.5.1
-Stable tag: 2.3.2
+Stable tag: 2.3.3
 License: GPLv2
 
 
@@ -25,7 +25,13 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files
 
+= 2.3.3 (updated 2013-02-10) =
+* improved UI linking Categories and Translations (fieldset at bottom of taxonomy list),
+* add feature to sort msgid by text,
+
 = 2.3.2 (updated 2013-02-03) =
+* improved UI linking Categories and Translations,
+* add feature to sort msgid by text,
 * improved UI when editing msg,
 * manage capabilities and option to add editing capability to role Editor.
 * add support email form as in xili-language or xili-tidy-tags
@@ -135,6 +141,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2013 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.3.3 (2013-02-10) =
+* improved UI linking Categories (Taxonomies) and Translations in Edit Categories list,
+* add feature to sort msgid by text,
 = 2.3.2 (2013-02-03) =
 * improved UI when editing msg,
 * manage capabilities and option to add editing capability to role Editor.
@@ -174,4 +183,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20130127 - MS - dev.xiligroup.com
+© 20130210 - MS - dev.xiligroup.com
