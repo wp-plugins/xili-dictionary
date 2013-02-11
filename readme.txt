@@ -25,8 +25,8 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files
 
-= 2.3.3 (updated 2013-02-10) =
-* improved UI linking Categories and Translations (fieldset at bottom of taxonomy list),
+= 2.3.3 (updated 2013-02-11) =
+* improved UI linking Categories and Translations (fieldset at top of taxonomy list),
 * add feature to sort msgid by text,
 
 = 2.3.2 (updated 2013-02-03) =
