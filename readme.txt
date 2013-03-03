@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
 Tested up to: 3.5.1
-Stable tag: 2.3.3
+Stable tag: 2.3.4
 License: GPLv2
 
 
@@ -15,7 +15,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 **xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder.**
 
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT. 
-* With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` functions - , it is possible to create and update .mo file in the current theme folder.
+* With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
@@ -25,11 +25,14 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files
 
-= 2.3.3 (updated 2013-02-11) =
+= 2.3.4 (updated 2013-03-03) =
+* add infos and links in cat (removed from xl) 
+* import from sources : detects esc_html and esc_attr functions (I10n.php) and more
+= 2.3.3 =
 * improved UI linking Categories and Translations (fieldset at top of taxonomy list),
 * add feature to sort msgid by text,
 
-= 2.3.2 (updated 2013-02-03) =
+= 2.3.2 =
 * improved UI linking Categories and Translations,
 * add feature to sort msgid by text,
 * improved UI when editing msg,
@@ -141,6 +144,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2013 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.3.4 (2013-03-03) =
+* add infos and links in cat (removed from xl) 
+* import from sources : detects esc_html and esc_attr functions (I10n.php) and more.
 = 2.3.3 (2013-02-10) =
 * improved UI linking Categories (Taxonomies) and Translations in Edit Categories list,
 * add feature to sort msgid by text,
@@ -183,4 +189,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20130210 - MS - dev.xiligroup.com
+© 20130303 - MS - dev.xiligroup.com
