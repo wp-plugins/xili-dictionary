@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
 Requires at least: 3.3.2
-Tested up to: 3.5.1
-Stable tag: 2.3.5
+Tested up to: 3.6
+Stable tag: 2.3.6
 License: GPLv2
 
 
@@ -23,9 +23,11 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 = roadmap =
 * code source cleaning
 * readme rewritting
-* dictionary for other than theme's .po, .mo files
+* dictionary for other than theme's .po, .mo files (plugin's frontend terms…)
 
-= 2.3.5 (updated 2013-04-16) =
+= 2.3.6 (updated 2013-04-22) =
+* improve import title for context of languages (no context for languages list) (XL 2.8.8+)
+= 2.3.5 =
 * import titles of xili_language_list - the_category (xili_language 2.8.7)
 * tested with WP 3.6 beta
 = 2.3.4 =
@@ -147,6 +149,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2013 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.3.6 (updated 2013-04-26) =
+* improve import title for context of languages (no context for languages list) (XL 2.8.8+)
+* Fixes origin in menu
 = 2.3.5 (2013-04-16) =
 * import titles of xili_language_list - the_category (xili_language 2.8.7)
 * tested with WP 3.6 beta
@@ -195,4 +200,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20130303 - MS - dev.xiligroup.com
+© 20130426 - MS - dev.xiligroup.com
