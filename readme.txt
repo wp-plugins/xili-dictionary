@@ -1,10 +1,10 @@
 === xili-dictionary ===
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite
+Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network
 Requires at least: 3.3.2
 Tested up to: 3.6
-Stable tag: 2.3.6
+Stable tag: 2.3.7
 License: GPLv2
 
 
@@ -25,34 +25,8 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files (plugin's frontend terms…)
 
-= 2.3.6 (updated 2013-04-22) =
-* improve import title for context of languages (no context for languages list) (XL 2.8.8+)
-= 2.3.5 =
-* import titles of xili_language_list - the_category (xili_language 2.8.7)
-* tested with WP 3.6 beta
-= 2.3.4 =
-* add infos and links in cat (removed from xl) 
-* import from sources : detects esc_html and esc_attr functions (I10n.php) and more
-= 2.3.3 =
-* improved UI linking Categories and Translations (fieldset at top of taxonomy list),
-* add feature to sort msgid by text,
-
-= 2.3.2 =
-* improved UI linking Categories and Translations,
-* add feature to sort msgid by text,
-* improved UI when editing msg,
-* manage capabilities and option to add editing capability to role Editor.
-* add support email form as in xili-language or xili-tidy-tags
-* enable to import mo or po files of themes in languages folder (wp-content). So easy to create an adapted copy in theme languages sub-folder (since WP3.5)
-
-= 2.3.1 =
-* Tests WP 3.5.1 and XL 2.8.4
-= 2.3.0 =
-* add ajax functions for import and erase functions (big files, no freeze)
-* fixes
-* See [xili wiki](http://wiki.xiligroup.org/index.php/Xili-dictionary_v2.3:_what%27s_new_%3F)
-
-For previous versions, see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/) and readme in tab Other Versions. 
+= Version 2.3.7 (updated 2013-05-09) =
+see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/). 
 
 == Installation ==
 
@@ -71,13 +45,19 @@ More infos will be added progressively in a wiki [here](http://wiki.xiligroup.or
 Since WP 3.0-alpha, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context. Future specific docs will be available for registered webmasters to describe where mo files where saved.
 
 = Where can I see websites using this plugin ? =
+dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?") and example child themes below:
 
-More than 3000 websites use xili-language (according peak of version updates in stats).
+Twenty Ten [2010](http://multilingual.wpmu.xilione.com/)
 
-dev.xiligroup.com [here](http://dev.xiligroup.com/ "a multi-language site"),
-multilingual.wpmu.xilione.com [here](http://multilingual.wpmu.xilione.com/ "a multi-language demo site")
-and
-www.xiliphone.mobi [here](http://www.xiliphone.mobi "a theme for mobile") also usable with mobile as iPhone.
+Twenty Eleven [2011](http://2011.wpmu.xilione.com/)
+
+Twenty Twelve [2012](http://2012.wpmu.xilione.com/)
+
+Responsive [responsive](http://childxili.wpmu.xilione.com/)
+
+Twenty Thirteen [2013](http://2013.extend.xiligroup.org/)
+
+And as you can see in [stats](http://wordpress.org/extend/plugins/xili-language/stats/), thousand of sites use xili-language.
 
 = What is the difference with msgid and msgtr in .po file ? =
 The msgid line is equal to the term or sentence hardcoded in the theme functions like  ` _e() or __() `. msgstr is the translation in the target language : by instance `fr_FR.po` for a french dictionary. (the compiled file is `fr_FR.mo` saved in the theme folder.
@@ -149,7 +129,12 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2013 MS - dev.xiligroup.com
 
 == Changelog ==
-= 2.3.6 (updated 2013-04-26) =
+
+= 2.3.7 (2013-05-09) =
+* tests 3.6 * 
+* clean $wp_roles on deactivating
+* able to import/export from parent languages subfolder if child theme active.
+= 2.3.6 (2013-04-26) =
 * improve import title for context of languages (no context for languages list) (XL 2.8.8+)
 * Fixes origin in menu
 = 2.3.5 (2013-04-16) =
@@ -200,4 +185,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20130426 - MS - dev.xiligroup.com
+© 20130509 - MS - dev.xiligroup.com
