@@ -131,10 +131,11 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 == Changelog ==
 
 = 2.3.8 (2013-05-12) =
-* add column type / orgin in msgs list,
-* add parent theme origin when import/export if child theme - clean obsolete code lines
+* add column type / origin in msgs list,
+* add parent theme origin when import/export if child theme
+* clean obsolete code lines
 * fixes (capability)
-* tests 3.6 * 
+* tests WP 3.6-beta3 
 = 2.3.7 (2013-05-09) =
 * clean $wp_roles on deactivating
 * able to import/export from parent languages subfolder if child theme active.
