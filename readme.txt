@@ -2,7 +2,7 @@
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network
-Requires at least: 3.5
+Requires at least: 3.5.2
 Tested up to: 3.6
 Stable tag: 2.3.9
 License: GPLv2
