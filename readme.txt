@@ -2,9 +2,9 @@
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network
-Requires at least: 3.5.2
-Tested up to: 3.6
-Stable tag: 2.3.9
+Requires at least: 3.6
+Tested up to: 3.8
+Stable tag: 2.4.0
 License: GPLv2
 
 
@@ -25,7 +25,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files (plugin's frontend terms…)
 
-= Version 2.3.9 (updated 2013-08-22) =
+= Version 2.4.0 (updated 2014-02-01) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/). 
 
 == Installation ==
@@ -56,6 +56,8 @@ Twenty Twelve [2012](http://2012.wpmu.xilione.com/)
 Responsive [responsive](http://childxili.wpmu.xilione.com/)
 
 Twenty Thirteen [2013](http://2013.extend.xiligroup.org/)
+
+Twenty Fourteen [2014](http://2014.extend.xiligroup.org/)
 
 And as you can see in [stats](http://wordpress.org/extend/plugins/xili-language/stats/), thousand of sites use xili-language.
 
@@ -126,9 +128,13 @@ See [dev.xiligroup forum plugins forum](http://forum2.dev.xiligroup.com/forum.ph
 
 See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary/).
 
-© 2009-2013 MS - dev.xiligroup.com
+© 2009-2014 MS - dev.xiligroup.com
 
 == Changelog ==
+
+= 2.4.0 (2014-02-01) =
+* WP3.8 improvements - fixes noun comment import, 
+* detect context when detecting duplicates
 
 = 2.3.9 (2013-08-22) =
 * fixes selector issue when importing pot file.
@@ -194,4 +200,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta) 
 
-© 20130822 - MS - dev.xiligroup.com
+© 20140201 - MS - dev.xiligroup.com
