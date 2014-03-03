@@ -12,10 +12,10 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 == Description ==
 
-**xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder.**
+**xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder and of current plugins.**
 
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT.
-* With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder.
+* With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder and current plugins.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
@@ -23,7 +23,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 = roadmap =
 * code source cleaning
 * readme rewritting
-* dictionary for other than theme's .po, .mo files (plugin's frontend terms…)
+* writer management
 
 = Version 2.6.0 (updated 2014-03-02) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
@@ -38,6 +38,11 @@ see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelo
 More infos will be added progressively in a wiki [here](http://wiki.xiligroup.org/index.php/Main_Page).
 
 == Frequently Asked Questions ==
+
+= Why xili-dictionary is not included in xili-language ? =
+
+* because xili-dictionary is available for non multilingual site to manage theme and plugin translations.
+* because it is possible to desactivate xili-dictionary after creation of po mo files used by WP and xili-language.
 
 = What about WP multisite (or network - former named WPMU) and the trilogy ? =
 [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
@@ -119,7 +124,7 @@ Verify you install latest version of trilogy (xili-language, xili-tidy-tags,…)
 
 == More infos ==
 
-This first beta releases are for theme's creator or designer with some knowledges in i18n.
+This releases are for theme's creator or designer with some knowledges in i18n. Help are more and more included inside help tabs of dashboard and each screen.
 
 The plugin post is frequently updated [wiki.xiligroup.org](http://wiki.xiligroup.org/index.php/Category:Xili-dictionary_plugin)
 
@@ -209,4 +214,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20140302 - MS - dev.xiligroup.com
+© 20140303 - MS - dev.xiligroup.com
