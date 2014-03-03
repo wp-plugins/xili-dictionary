@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network
 Requires at least: 3.6
 Tested up to: 3.8.1
-Stable tag: 2.5.0
+Stable tag: 2.6.0
 License: GPLv2
 
 
@@ -25,7 +25,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * dictionary for other than theme's .po, .mo files (plugin's frontend terms…)
 
-= Version 2.5.0 (updated 2014-02-28) =
+= Version 2.6.0 (updated 2014-03-02) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -131,6 +131,11 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 
+= 2.6.0 (2014-03-02) =
+
+* possible now to manage language files from plugins
+* more embedded help
+
 = 2.5.0 (2014-02-28) =
 
 * possible now to download language files to computer for further works.
@@ -204,4 +209,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20140228 - MS - dev.xiligroup.com
+© 20140302 - MS - dev.xiligroup.com
