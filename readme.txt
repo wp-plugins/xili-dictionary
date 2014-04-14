@@ -136,7 +136,7 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 
 == Changelog ==
 
-= 2.6.1 (2014-03-08) =
+= 2.6.2 (2014-04-14) =
 * fixes issues when importing plural form.
 * tested with WP 3.9-RC1
 = 2.6.1 (2014-03-08) =
