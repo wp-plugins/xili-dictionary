@@ -3786,7 +3786,7 @@ function verifybefore(id) {
 						$file = $this->path_plugin_file( $checked_themes[0], $selectlang, 'mo' );
 					}
 			     }
-error_log ('FILE = ' . $file ) ;
+
 		     	if ( isset ( $mo ) && count ($mo->entries) > 0 ){ // 2.2
 		     		$local = ( $_POST['target'] == "targetplugin" ) ?  '&nbsp;-&nbsp;'.basename($file, '.mo') : $local;
 		     		if ( false === $this->Save_MO_to_file ($selectlang , $mo, $file ) ) {
