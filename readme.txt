@@ -4,7 +4,7 @@ Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
 Requires at least: 3.6.1
 Tested up to: 3.9.1
-Stable tag: 2.7.2
+Stable tag: 2.8.0
 License: GPLv2
 
 
@@ -14,18 +14,18 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 **xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder and of current plugins.**
 
-* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT.
+* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT to build .mo files (used online by WP website), .po files (file assigned to a language and used by translator, text format of compiled .mo), and now .pot files.
 * With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder and current plugins.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
 
 
 = roadmap =
-* code source cleaning
+* code source renewed with lastest WP tools
 * readme rewritting
 * writer management
 
-= Version 2.7.2 (updated 2014-06-02) =
+= Version 2.8.0 (updated 2014-06-05) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -107,6 +107,11 @@ msgstr[1] "commentaires"
 xili-dictionary is able to import a .mo of the target language and rebuild a .po editable in backend or a text editor. Example: if it_IT is in your language list, it_IT.mo can be imported, completed by webmaster and export as it_IT.po text file in languages sub-folder of the theme (as text backup).
 
 
+= What is the differences with poEdit application ? =
+
+[Poedit](http://poedit.net) is a standalone desktop application. Poedit offers the ways to translate apps and sites (that use gettext). This application is used by us to create localization of this and other plugins.
+xili-dictionary is online and based on WP Core and essentially made for files used by WP (theme, plugin, custom terms of site...). For technicians, some advantages: possible to recover .mo files, to translate online items, to export .pot files, and more...
+
 
 == Screenshots ==
 
@@ -135,10 +140,15 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2014 MS - dev.xiligroup.com
 
 == Changelog ==
+
+= 2.8.0 (2014-06-05) =
+* can now create pot file,
+* improvement in export, UI and texts.
+* fixes
 = 2.7.2 (2014-06-02) =
 * disable media button,
 * subtitle of msg,
-* formatted title (based on id)
+* formatted title (based on id).
 = 2.7.1 (2014-05-26) =
 * clean code
 * fixes issue in download
@@ -229,4 +239,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20140527 - MS - dev.xiligroup.com
+© 20140605 - MS - dev.xiligroup.com
