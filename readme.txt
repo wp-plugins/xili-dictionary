@@ -17,7 +17,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT to build .mo files (used online by WP website), .po files (file assigned to a language and used by translator, text format of compiled .mo), and now .pot files.
 * With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder and current plugins.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
-* xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin.
+* xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin. Also compatible with [xili re/un-attach media](http://wordpress.org/extend/plugins/xili-re-un-attach-media/) !
 
 
 = roadmap =
@@ -25,7 +25,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * writer management
 
-= Version 2.9.1 (updated 2014-07-01) =
+= Version 2.9.1 (updated 2014-07-18) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -47,7 +47,7 @@ More infos will be added progressively in a wiki [here](http://wiki.xiligroup.or
 = What about WP multisite (or network - former named WPMU) and the trilogy ? =
 [xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
 
-Since WP 3.0-alpha, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context. Future specific docs will be available for registered webmasters to describe where mo files where saved.
+Since WP 3.0, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context.
 
 = Where can I see websites using this plugin ? =
 dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?") and example child themes below:
@@ -143,6 +143,7 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 = 2.9.1 (2014-07-01) =
 * fixes js for file state of local- files in multisite install.
 * Better import from local- mo file
+* During deletion, if a msgid has more than one origin, the msgid is not deleted, only origin is unassigned.
 = 2.9.0 (2014-06-29) =
 * better message when creating or download or file writing,
 * import from source files (current theme, plugins), a good way if no pot files delivered by authors,
@@ -246,4 +247,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20140701 - MS - dev.xiligroup.com
+© 20140718 - MS - dev.xiligroup.com
