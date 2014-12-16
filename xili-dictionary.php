@@ -11,7 +11,7 @@ Text Domain: xili-dictionary
 Domain Path: /languages/
 */
 
-# 2.9.2 - 141216 - fixes WPLANG (obsolete in WP4.0)
+# 2.9.2 - 141216 - fixes WPLANG (obsolete in WP4.0) and export local-xx_yy.po
 # 2.9.1 - 140701 - fixes js for file state of local- files in multisite install. Better import from local- mo file
 # 2.9.0 - 140628 - better message when creating - scan and import from source files (current theme, plugins) - fixe uppercase content (BINARY)
 # 2.8.0 - 140605 - can now create pot file - improvement in export, UI and texts
@@ -4087,7 +4087,7 @@ function verifybefore(id) {
 
 					} else { // standalone
 
-						if ( isset ( $_POST['only-local'] ) && $_POST['only-local'] == 'local' && $file_suffix == '.pot') { // no pot for local
+						if ( isset ( $_POST['only-local'] ) && $_POST['only-local'] == 'local' && $file_suffix != '.pot') { // no pot for local
 							$local = 'local';
 							$extract_array [ $this->msg_extracted_comments ] = $this->local_tag;
 							$extract_array [ 'like-'.$this->msg_extracted_comments ] = true;
