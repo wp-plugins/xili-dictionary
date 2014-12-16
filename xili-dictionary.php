@@ -8391,7 +8391,7 @@ function verifybefore(id) {
 					$count_entries = $this->caching_file( $type, $lang, $local_file, $pomofile, $multilocal );
 				} else {
 					add_filter ( 'xd-pot-scanning-project', array(&$this, 'xd_pot_scanning_xili_project'), 10, 2 ) ;
-					$result_array = $this->caching_pot_obj ( $local_file, $plugin_path, $create_pot_file );
+					$result_array = $this->caching_pot_obj ( $local_file, $plugin_path, $create_pot_file ); error_log ('bkpop'.serialize($create_pot_file));
 					if ( $result_array ) $this->looping_output( $result_array['infos'] ) ;
 					$count_entries = ( $result_array ) ? $result_array['count'] : false ;
 				}
@@ -8686,7 +8686,7 @@ function verifybefore(id) {
 			update_option( '_xd_cache_pomo_file', $entries );
 			$cur_key = ( $place == 'plugin' ) ? $project_key : $origin_theme ;
 			$result = false ;
-			if ( $backup_pot && is_writable( $projects[$cur_key]['file'] )) {
+			if ( $backup_pot && is_writable( dirname($projects[$cur_key]['file'] ))) { // ok if file do not exists 2.9.2 - 17:00
 				$temp_po = new PO;
 				$temp_po->entries = $entries->entries;
 
