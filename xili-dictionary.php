@@ -8391,7 +8391,7 @@ function verifybefore(id) {
 					$count_entries = $this->caching_file( $type, $lang, $local_file, $pomofile, $multilocal );
 				} else {
 					add_filter ( 'xd-pot-scanning-project', array(&$this, 'xd_pot_scanning_xili_project'), 10, 2 ) ;
-					$result_array = $this->caching_pot_obj ( $local_file, $plugin_path, $create_pot_file ); error_log ('bkpop'.serialize($create_pot_file));
+					$result_array = $this->caching_pot_obj ( $local_file, $plugin_path, $create_pot_file );
 					if ( $result_array ) $this->looping_output( $result_array['infos'] ) ;
 					$count_entries = ( $result_array ) ? $result_array['count'] : false ;
 				}
