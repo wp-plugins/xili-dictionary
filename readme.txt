@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
 Requires at least: 3.6.1
-Tested up to: 4.1-RC1
-Stable tag: 2.9.2
+Tested up to: 4.1
+Stable tag: 2.10.0
 License: GPLv2
 
 
@@ -14,18 +14,18 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 **xili-dictionary is a dictionary storable in custom post type (CPT) and terms (custom taxonomy) to create, update and translate .po files or .mo files of current theme folder and of current plugins.**
 
-* xili-dictionary is a plugin (compatible with xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT to build .mo files (used online by WP website), .po files (file assigned to a language and used by translator, text format of compiled .mo), and now .pot files.
+* xili-dictionary is a plugin (compatible with plugin xili-language) to build a multilingual dictionary saved in the post tables of WordPress as CPT to build .mo files (used online by WP website), .po files (file assigned to a language and used by translator, text format of compiled .mo), and now .pot files.
 * With this dictionary, collecting terms from taxonomies (title, description), from bloginfos, from wp_locale, from current theme - international terms with ` _e(), __() or _n() or _x(),  _ex(), _nx(),... ` and other functions as in I10n.php - , it is possible to create and update .mo file in the current theme folder and current plugins.
 * By importing .mo files, it is possible to regenerate readable .po files and enrich translation tables.
 * xili-dictionary is full compatible with [xili-language](http://wordpress.org/extend/plugins/xili-language/) plugin and [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/) plugin. Also compatible with [xili re/un-attach media](http://wordpress.org/extend/plugins/xili-re-un-attach-media/) !
 
 
 = roadmap =
-* code source renewed with latest WP tools
+* code source renewed with latest WP tools available in WP 4.1 Dinah
 * readme rewritting
 * writer management
 
-= Version 2.9.2 (updated 2014-12-16 17:00) =
+= Version 2.10.0 (updated 2014-12-18) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -140,6 +140,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2015 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.10.0 (2014-12-18) =
+* collects comment-template.php msgids
+* better queries for WP 4.1 Dinah
 = 2.9.2 (2014-12-16 17:00) =
 * fixes WPLANG (obsolete in WP4.0)
 * fixes .po and .pot export in current child theme if files dont exists
@@ -250,4 +253,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20141216 - MS - dev.xiligroup.com
+© 20141218 - MS - dev.xiligroup.com
