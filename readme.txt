@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
 Requires at least: 3.6.1
-Tested up to: 4.1
-Stable tag: 2.10.0
+Tested up to: 4.1.1
+Stable tag: 2.10.1
 License: GPLv2
 
 
@@ -21,11 +21,11 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 
 = roadmap =
-* code source renewed with latest WP tools available in WP 4.1 Dinah
+* code source renewed with latest WP tools available in WP 4.1 Dinah and soon 4.2
 * readme rewritting
 * writer management
 
-= Version 2.10.0 (updated 2014-12-18) =
+= Version 2.10.1 (updated 2015-02-28) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -50,7 +50,7 @@ More infos will be added progressively in a wiki [here](http://wiki.xiligroup.or
 Since WP 3.0, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context.
 
 = Where can I see websites using this plugin ? =
-dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?") and example child themes below:
+
 
 Twenty Ten [2010](http://multilingual.wpmu.xilione.com/)
 
@@ -63,6 +63,10 @@ Responsive [responsive](http://childxili.wpmu.xilione.com/)
 Twenty Thirteen [2013](http://2013.extend.xiligroup.org/)
 
 Twenty Fourteen [2014](http://2014.extend.xiligroup.org/)
+
+Twenty Fifteen [2015](http://2015.extend.xiligroup.org/)
+
+dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?") and example child themes below:
 
 And as you can see in [stats](http://wordpress.org/extend/plugins/xili-language/stats/), thousand of sites use xili-language.
 
@@ -140,6 +144,8 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2015 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.10.1 (2015-02-28) =
+* manages plugin language files in WP_LANG_DIR
 = 2.10.0 (2014-12-18) =
 * collects comment-template.php msgids
 * better queries for WP 4.1 Dinah
@@ -253,4 +259,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20141218 - MS - dev.xiligroup.com
+© 20150228 - MS - dev.xiligroup.com
