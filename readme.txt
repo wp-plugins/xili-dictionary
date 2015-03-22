@@ -3,8 +3,8 @@ Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
 Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
 Requires at least: 3.6.1
-Tested up to: 4.1.1
-Stable tag: 2.10.2
+Tested up to: 4.2-beta2
+Stable tag: 2.10.3
 License: GPLv2
 
 
@@ -21,11 +21,11 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 
 
 = roadmap =
-* code source renewed with latest WP tools available in WP 4.1 Dinah and soon 4.2
+* code source renewed with latest WP tools available in soon 4.2
 * readme rewritting
 * writer management
 
-= Version 2.10.2 (updated 2015-03-12) =
+= Version 2.10.3 (updated 2015-03-22) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -44,29 +44,24 @@ More infos will be added progressively in a wiki [here](http://wiki.xiligroup.or
 * because xili-dictionary is available for non multilingual site to manage theme and plugin translations.
 * because it is possible to desactivate xili-dictionary after creation of po mo files used by WP and xili-language.
 
-= What about WP multisite (or network - former named WPMU) and the trilogy ? =
-[xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
-
-Since WP 3.0, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context.
-
 = Where can I see websites using this plugin ? =
 
+Twenty Fifteen [2015](http://2015.extend.xiligroup.org/) - contains also tips and tricks about WordPress
 
-Twenty Ten [2010](http://multilingual.wpmu.xilione.com/)
-
-Twenty Eleven [2011](http://2011.wpmu.xilione.com/)
-
-Twenty Twelve [2012](http://2012.wpmu.xilione.com/)
-
-Responsive [responsive](http://childxili.wpmu.xilione.com/)
+Twenty Fourteen [2014](http://2014.extend.xiligroup.org/) - contains also latest informations and documentions about xili-language trilogy
 
 Twenty Thirteen [2013](http://2013.extend.xiligroup.org/)
 
-Twenty Fourteen [2014](http://2014.extend.xiligroup.org/)
+Twenty Twelve [2012](http://2012.wpmu.xilione.com/)
 
-Twenty Fifteen [2015](http://2015.extend.xiligroup.org/)
+Twenty Eleven [2011](http://2011.wpmu.xilione.com/)
 
-dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?") and example child themes below:
+Twenty Ten [2010](http://multilingual.wpmu.xilione.com/)
+
+Responsive [responsive](http://childxili.wpmu.xilione.com/)
+
+The reference website under renovation:
+dev.xiligroup.com [here](http://dev.xiligroup.com/?p=187 "why xili-language ?")
 
 And as you can see in [stats](http://wordpress.org/extend/plugins/xili-language/stats/), thousand of sites use xili-language.
 
@@ -114,7 +109,12 @@ xili-dictionary is able to import a .mo of the target language and rebuild a .po
 = What is the differences with poEdit application ? =
 
 [Poedit](http://poedit.net) is a standalone desktop application. Poedit offers the ways to translate apps and sites (that use gettext). This application is used by us to create localization of this and other plugins.
-xili-dictionary is online and based on WP Core and essentially made for files used by WP (theme, plugin, custom terms of site...). For technicians, some advantages: possible to recover .mo files, to translate online items, to export .pot files, and more...
+xili-dictionary is online and based on WP Core and essentially made for files used by WP (theme, plugin, custom terms of site...). For technicians, some advantages: possible to recover .mo files, to translate online items, to export .pot files, and more... It is also possible to import msgid present in new template default functions introduced in recent versions.
+
+= What about WP multisite (or network - former named WPMU) and the trilogy ? =
+[xili-language](http://wordpress.org/extend/plugins/xili-language/), [xili-tidy-tags](http://wordpress.org/extend/plugins/xili-tidy-tags/), [xili-dictionary](http://wordpress.org/extend/plugins/xili-dictionary/)
+
+Since WP 3.0, if multisite is activated, the trilogy is compatible and will include progressively some improvements dedicaded especially for WP network context.
 
 
 == Screenshots ==
@@ -144,6 +144,12 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2015 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.10.3 (2015-03-22) =
+* can import msgid of get_the_archive_title (since WP 4.1)
+* improves adding context only after draft state
+* now able to use flags available in Medias Library (if xili-language is active)
+* Updated datatables js css
+* tested WP 4.2-beta2
 = 2.10.2 (2015-03-12) =
 * fixes no context msgid creation after creation with context
 = 2.10.1 (2015-02-28) =
