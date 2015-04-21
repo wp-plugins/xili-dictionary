@@ -1,10 +1,10 @@
 === xili-dictionary ===
 Contributors: michelwppi, MS dev.xiligroup
 Donate link: http://dev.xiligroup.com/
-Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
+Tags: theme,post,plugin,posts, page, category, admin,multilingual,taxonomy,dictionary, .mo file, .po file , .pot file, l10n, i18n, language, international,wpmu,plural,multisite, WP network, translation
 Requires at least: 3.6.1
-Tested up to: 4.2-beta2
-Stable tag: 2.10.3
+Tested up to: 4.2
+Stable tag: 2.11.0
 License: GPLv2
 
 
@@ -25,7 +25,7 @@ xili-dictionary is a dictionary storable in CPT and terms to create and translat
 * readme rewritting
 * writer management
 
-= Version 2.10.3 (updated 2015-03-22) =
+= Version 2.11.0 (updated 2015-04-21) =
 see [Changelog tab](http://wordpress.org/extend/plugins/xili-dictionary/changelog/).
 
 == Installation ==
@@ -144,6 +144,9 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 © 2009-2015 MS - dev.xiligroup.com
 
 == Changelog ==
+= 2.11.0 (2015-04-21) =
+* now able to import msgid from sources (theme, plugin) only in .pot file
+* tested WP 4.2
 = 2.10.3 (2015-03-22) =
 * can import msgid of get_the_archive_title (since WP 4.1)
 * improves adding context only after draft state
@@ -267,4 +270,4 @@ See also the [Wordpress plugins forum](http://wordpress.org/tags/xili-dictionary
 * between 0.9.3 and 1.4.4 see version 1.4.4 - 20120219
 = 0.9.3 = first public release (beta)
 
-© 20150312 - MS - dev.xiligroup.com
+© 20150421 - MS - dev.xiligroup.com
